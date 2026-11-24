@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="CharacterAnimationSet" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/player/character_animation_set.gd" id="1_set"]
+[ext_resource type="PackedScene" path="res://assets/models/characters/kael_standin/Rogue_Hooded.glb" id="2_model"]
+
+[resource]
+script = ExtResource("1_set")
+model = ExtResource("2_model")
+model_scale = 0.8
+hidden_nodes = PackedStringArray("Knife_Offhand", "1H_Crossbow", "2H_Crossbow", "Knife", "Throwable")
+air_clip = &"Jump_Idle"
+land_clip = &"Jump_Land"
+climb_clip = &"Idle"
+looping_clips = PackedStringArray("Idle", "Walking_A", "Walking_B", "Walking_C", "Walking_Backwards", "Running_A", "Running_B", "Running_Strafe_Left", "Running_Strafe_Right", "Jump_Idle", "Unarmed_Idle", "2H_Melee_Idle", "Blocking")
+locomotion_clips = PackedStringArray("Idle", "Walking_A", "Running_B", "Running_A")
+locomotion_speeds = PackedFloat32Array(0, 0.9, 2, 4.5)
+locomotion_cycle_seconds = PackedFloat32Array(1.07, 0.8, 0.95, 0.64)
+sprint_cycle_seconds = 0.5
+crouch_cycle_seconds = 0.62

@@ -1,0 +1,23 @@
+{
+	"_comment": "Tuning for the Forgotten Forest and the Warden.",
+	"enemy_sleep_distance": 85.0,
+	"enemy_wake_distance": 72.0,
+	"salvage_pickup": 30,
+	"carrier_frequency": 4,
+	"carrier_strength": 2,
+	"warden": {
+		"health": 520.0,
+		"armor": 110.0,
+		"swing_damage": 24.0,
+		"phase_2_at": 0.6,
+		"phase_3_at": 0.25,
+		"phase_3_recovery": 1.8,
+		"flame_range": 11.0,
+		"flame_windup": 1.0,
+		"flame_seconds": 3.2,
+		"flame_interval": 10.0,
+		"flame_arc_degrees": 110.0,
+		"flame_half_angle_degrees": 17.0,
+		"flame_damage_per_tick": 8.0
+	}
+}

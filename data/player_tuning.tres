@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="PlayerTuning" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/player/player_tuning.gd" id="1_tuning"]
+
+[resource]
+script = ExtResource("1_tuning")
+walk_speed = 2.0
+jog_speed = 4.5
+sprint_speed = 7.0
+crouch_speed = 1.8
+crouch_height = 1.4
+jump_apex_height = 1.2
+coyote_time = 0.12
+jump_buffer_time = 0.1
+max_stamina = 100.0
+stamina_regen_delay = 0.8

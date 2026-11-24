@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="EnemyData" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/ai/enemy_data.gd" id="1"]
+[ext_resource type="PackedScene" path="res://assets/models/characters/enemies/Skeleton_Mage.glb" id="2"]
+
+[resource]
+script = ExtResource("1")
+model = ExtResource("2")
+id = "spitter"
+display_name = "Spitter"
+model_scale = 0.8
+is_echo_infused = true
+max_health = 34.0
+stagger_threshold = 20.0
+walk_speed = 1.4
+chase_speed = 3.0
+attack_kind = 3
+attack_damage = 14.0
+attack_range = 11.0
+attack_windup = 0.7
+attack_active = 0.1
+attack_recovery = 0.5
+attack_cooldown = 2.6
+walk_clip = &"Walking_A"
+attack_clip = &"Spellcast_Shoot"
+attack_impact_fraction = 0.45
+walk_clip_speed = 1.5

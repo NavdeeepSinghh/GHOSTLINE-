@@ -1,0 +1,7 @@
+{
+	"_comment": "Help when the player seems stuck. After 'first_seconds' on the same objective a gentle hint appears; after 'second_seconds' a step-by-step one. Pressing the Hint key (T, or D-pad down) shows the step-by-step hint at once and flashes the objective marker. Per-area texts are under 'stuck' in data/story/<area>.json, keyed by objective.",
+	"first_seconds": 50.0,
+	"second_seconds": 110.0,
+	"hint_seconds": 11.0,
+	"first_hint_reminder": "Stuck? Press T (or D-pad down) for a hint."
+}

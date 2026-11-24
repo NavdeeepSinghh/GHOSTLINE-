@@ -1,0 +1,14 @@
+{
+	"_comment": "Music layer levels (dB) per music state, the crossfade time, and how ambience ducks under cinematics. Read by scripts/audio/music_director.gd and audio_manager.gd.",
+	"crossfade_seconds": 1.5,
+	"states": {
+		"explore": {"explore": 0.0, "tension": -60.0, "combat": -60.0, "boss": -60.0},
+		"tension": {"explore": -1.0, "tension": 0.0, "combat": -60.0, "boss": -60.0},
+		"combat": {"explore": -3.0, "tension": -2.0, "combat": 0.0, "boss": -60.0},
+		"boss": {"explore": -4.0, "tension": -3.0, "combat": -1.0, "boss": 0.0},
+		"silent": {"explore": -60.0, "tension": -60.0, "combat": -60.0, "boss": -60.0}
+	},
+	"master_music_db": -6.0,
+	"cinematic_ambience_duck_db": -6.0,
+	"areas": ["dead_city", "forest", "facility", "menu"]
+}

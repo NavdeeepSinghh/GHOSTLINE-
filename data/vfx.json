@@ -1,0 +1,11 @@
+{
+	"_comment": "Particle counts for the one-shot effects in scripts/combat/vfx.gd, at the Medium preset. Low halves them, High adds 30%.",
+	"landing_dust": 16,
+	"landing_min_speed": 4.0,
+	"dodge_dust": 10,
+	"step_splash": 7,
+	"death_sparks": 26,
+	"death_mist": 7,
+	"flame_embers": 36,
+	"collapse_seconds": 3.5
+}

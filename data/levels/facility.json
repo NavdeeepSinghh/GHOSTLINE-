@@ -1,0 +1,41 @@
+{
+	"_comment": "Tuning for the Facility and the Choir.",
+	"enemy_sleep_distance": 70.0,
+	"enemy_wake_distance": 60.0,
+	"salvage_pickup": 35,
+	"generator_loads": [
+		40,
+		30,
+		30,
+		20,
+		20,
+		10
+	],
+	"generator_capacity": 50,
+	"tone_sequence": [
+		2,
+		0,
+		3,
+		1
+	],
+	"laser_damage_per_tick": 9.0,
+	"choir": {
+		"health": 600.0,
+		"arena_radius": 14.0,
+		"phase_2_at": 0.66,
+		"phase_3_at": 0.33,
+		"attack_gap": 2.4,
+		"expose_seconds": 5.0,
+		"pillar_expose_seconds": 8.0,
+		"slam_radius": 3.2,
+		"slam_windup": 1.1,
+		"slam_damage": 22.0,
+		"ring_speed": 9.0,
+		"ring_damage": 16.0,
+		"half_windup": 1.4,
+		"half_damage": 26.0,
+		"shrink_factor": 0.72,
+		"edge_damage_per_tick": 7.0,
+		"summon_count": 4
+	}
+}

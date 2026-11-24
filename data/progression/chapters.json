@@ -1,0 +1,6 @@
+{
+	"_comment": "Chapter select (unlocked by finishing the game). Each chapter starts a fresh Kael with roughly what a player would have by then.",
+	"dead_city": {"title": "Act 1: Static", "place": "The Dead City", "weapons": {"rebar_pipe": 0}, "equipped": "rebar_pipe", "salvage": 0, "max_health": 100, "max_stamina": 100},
+	"forest": {"title": "Act 2: The Warden", "place": "The Forgotten Forest", "weapons": {"rebar_pipe": 1, "fire_axe": 0}, "equipped": "fire_axe", "salvage": 150, "max_health": 125, "max_stamina": 120},
+	"facility": {"title": "Act 3: The Song", "place": "The Underground Facility", "weapons": {"rebar_pipe": 1, "fire_axe": 1}, "equipped": "fire_axe", "salvage": 300, "max_health": 150, "max_stamina": 140}
+}

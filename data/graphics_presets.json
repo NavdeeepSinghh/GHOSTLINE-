@@ -1,0 +1,60 @@
+{
+	"_comment": "Graphics presets for Ghostline. Medium is the default and the one that must hold 60 FPS on a MacBook Air M4. 'upscaler' = auto picks MetalFX Spatial on the Metal driver and FSR 1 elsewhere. 'max_render_height' caps the 3D resolution on high-density displays (the 15-inch Air is 1846 pixels tall): the effective scale is the smaller of render_scale and max_render_height / window height. Godot offers 1, 2 or 4 directional shadow cascades (no 3).",
+	"_auto_detect": {
+		"_comment": "First launch runs 10 seconds on Medium. Below the low thresholds the game picks Low; at or above the high threshold it picks High (High costs about 2.4 times Medium on Apple Silicon, so it needs a large margin); otherwise Medium.",
+		"low_below_average_fps": 70.0,
+		"low_below_one_percent_fps": 40.0,
+		"high_above_average_fps": 170.0
+	},
+	"low": {
+		"render_scale": 0.6,
+		"max_render_height": 900,
+		"upscaler": "auto",
+		"antialiasing": "fxaa",
+		"shadow_size": 1024,
+		"shadow_cascades": 2,
+		"shadow_distance": 40.0,
+		"positional_shadow_atlas": 1024,
+		"soft_shadows": 0,
+		"volumetric_fog": 0,
+		"ssao": 0,
+		"ssr": 0,
+		"glow": 1,
+		"foliage_density": 0.5,
+		"view_distance": 120.0
+	},
+	"medium": {
+		"render_scale": 0.75,
+		"max_render_height": 1080,
+		"upscaler": "auto",
+		"antialiasing": "smaa",
+		"shadow_size": 2048,
+		"shadow_cascades": 2,
+		"shadow_distance": 60.0,
+		"positional_shadow_atlas": 2048,
+		"soft_shadows": 2,
+		"volumetric_fog": 1,
+		"ssao": 1,
+		"ssr": 1,
+		"glow": 2,
+		"foliage_density": 0.75,
+		"view_distance": 200.0
+	},
+	"high": {
+		"render_scale": 1.0,
+		"max_render_height": 1600,
+		"upscaler": "auto",
+		"antialiasing": "smaa",
+		"shadow_size": 4096,
+		"shadow_cascades": 4,
+		"shadow_distance": 100.0,
+		"positional_shadow_atlas": 4096,
+		"soft_shadows": 3,
+		"volumetric_fog": 2,
+		"ssao": 2,
+		"ssr": 2,
+		"glow": 2,
+		"foliage_density": 1.0,
+		"view_distance": 320.0
+	}
+}

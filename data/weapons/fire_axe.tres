@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="WeaponData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/combat/weapon_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "fire_axe"
+display_name = "Fire Axe"
+look = "axe"
+light_damage = 19.0
+light_stamina = 13.0
+light_poise = 20.0
+light_windup = 0.2
+light_active = 0.12
+light_recovery = 0.2
+heavy_damage = 48.0
+heavy_stamina = 30.0
+heavy_poise = 70.0
+heavy_windup = 0.95
+heavy_recovery = 0.55
+reach = 1.25
+armor_multiplier = 2.5

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="WeaponData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/combat/weapon_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "rebar_pipe"
+display_name = "Rebar Pipe"
+look = "pipe"
+light_damage = 14.0
+heavy_damage = 34.0

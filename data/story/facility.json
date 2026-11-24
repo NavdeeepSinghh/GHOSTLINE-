@@ -1,0 +1,217 @@
+{
+	"_comment": "Act 3 script for the Meridian Resonance Institute and the finale.",
+	"objectives": {
+		"power": "Restore power: balance the generators on Level 1",
+		"descend": "Take the stairs down to the living quarters",
+		"keycard": "Find a research keycard in the living quarters",
+		"labs": "Go down through the research labs",
+		"lock": "Open the resonance lock to the Chamber",
+		"chamber": "Enter the Resonance Chamber",
+		"choir": "The Choir",
+		"sever": "Sever the anchor",
+		"done": ""
+	},
+	"side_objectives": {
+		"archive": "Optional: read the security archive (Level 1)",
+		"office": "Optional: find Dr. Vance's private office (Level 3)"
+	},
+	"hints": {
+		"sentinel": "Sentinel cameras sweep in a cone. Stay out of the light, sneak underneath and cut the cable box on the wall (E), or switch them off at a security panel",
+		"cable": "One camera down. Each has its own cable box under it",
+		"lasers": "The laser grid is live. Restore power control to shut it down",
+		"lock": "The lock wants four tones in order. Lyra practised them somewhere on Level 2",
+		"choir": "Rings: jump or roll through. Marked ground: get off it. Strike the heart when it opens",
+		"pillars": "Strike all three resonance pillars to open the heart"
+	},
+	"radio": {
+		"arrive": [
+			{
+				"speaker": "Oren",
+				"text": "You're through. I can hear the air handlers. Twenty years on backup power and the place is still breathing.",
+				"seconds": 6.5
+			},
+			{
+				"speaker": "Oren",
+				"text": "Cameras will still be live. They call whatever's nearby. Security desk can kill them.",
+				"seconds": 5.5
+			}
+		],
+		"power": [
+			{
+				"speaker": "Oren",
+				"text": "Lights. There you go. Stairs are past the security desk.",
+				"seconds": 4.0
+			}
+		],
+		"quarters": [
+			{
+				"speaker": "Kael",
+				"text": "People lived down here. Kids.",
+				"seconds": 3.0
+			},
+			{
+				"speaker": "Oren",
+				"text": "Sixty families. There was a school room. Your sister ran rings round the teacher.",
+				"seconds": 6.0
+			}
+		],
+		"labs": [
+			{
+				"speaker": "Oren",
+				"text": "Signal's going, son. The deeper you get, the more it's her frequency and the less it's mine.",
+				"seconds": 6.0
+			},
+			{
+				"speaker": "Oren",
+				"text": "If I lose you: I'm still listening. I'll always be still listening.",
+				"seconds": 5.5
+			}
+		],
+		"archive": [
+			{
+				"speaker": "Kael",
+				"text": "\"Waiting for someone to answer.\" ...I answered, Oren.",
+				"seconds": 4.5
+			}
+		],
+		"office": [
+			{
+				"speaker": "Kael",
+				"text": "Mum.",
+				"seconds": 2.5
+			}
+		],
+		"lock_open": [
+			{
+				"speaker": "Lyra",
+				"text": "That's it. That's the end of the song. You remembered it for me.",
+				"seconds": 5.5,
+				"sound": "echo_motif"
+			}
+		]
+	},
+	"intro": [
+		{
+			"at": 1.0,
+			"speaker": "",
+			"text": "Act 3: The Underground Facility",
+			"seconds": 4.0
+		},
+		{
+			"at": 6.0,
+			"speaker": "Lyra",
+			"text": "Kael. You're inside. I can feel the door.",
+			"seconds": 5.0,
+			"sound": "echo_motif"
+		},
+		{
+			"at": 12.0,
+			"speaker": "Lyra",
+			"text": "It knows you're here too. It's so glad. It wants to hear you.",
+			"seconds": 6.0
+		}
+	],
+	"choir_intro": [
+		{
+			"at": 1.0,
+			"speaker": "Lyra",
+			"text": "Don't look at all of it at once. Look at the heart. That's where I am.",
+			"seconds": 6.0,
+			"sound": "echo_motif"
+		},
+		{
+			"at": 8.0,
+			"speaker": "",
+			"text": "The Choir turns every voice it has toward him.",
+			"seconds": 4.0
+		}
+	],
+	"phase_2": [
+		{
+			"speaker": "Lyra",
+			"text": "It's calling them in. The pillars, Kael. They're how it holds on to me.",
+			"seconds": 5.5
+		}
+	],
+	"phase_3": [
+		{
+			"speaker": "Lyra",
+			"text": "I can see what it's going to do before it does it. Listen to me. Just listen to me.",
+			"seconds": 6.0
+		}
+	],
+	"ending": [
+		{
+			"at": 1.0,
+			"speaker": "Lyra",
+			"text": "There. That's the note I've been holding. It's so heavy, Kael.",
+			"seconds": 6.0,
+			"sound": "echo_motif"
+		},
+		{
+			"at": 8.0,
+			"speaker": "Kael",
+			"text": "Then put it down. I've got it.",
+			"seconds": 4.0
+		},
+		{
+			"at": 13.0,
+			"speaker": "Lyra",
+			"text": "If I let go, it ends. All of it. Me too, maybe.",
+			"seconds": 5.5
+		},
+		{
+			"at": 19.5,
+			"speaker": "Kael",
+			"text": "You held a door shut for twenty years. Let me close it.",
+			"seconds": 5.5
+		},
+		{
+			"at": 26.0,
+			"speaker": "Lyra",
+			"text": "...Circle. Triangle. Diamond. Square.",
+			"seconds": 5.0,
+			"sound": "tone_3"
+		},
+		{
+			"at": 32.0,
+			"speaker": "",
+			"text": "The song ends.",
+			"seconds": 4.0
+		}
+	],
+	"stuck": {
+		"power": [
+			"The generators are in the back room of reception.",
+			"The generator room is at the far end of reception, opposite the security office. Press E at the controls and spread the loads so no generator is over 50: 40 + 10, 30 + 20, 30 + 20."
+		],
+		"descend": [
+			"The stairs down are through reception's east doors.",
+			"Go through the doors at the east end of reception and down the stairs to Level 2."
+		],
+		"keycard": [
+			"The keycard is somewhere in the dormitories.",
+			"Look in Dormitory A, the room on the south side of the corridor: the keycard glows blue on a bunk."
+		],
+		"labs": [
+			"The card reader is by the east door.",
+			"Press E at the card reader beside the east door of Level 2 and take the stairs down to the labs."
+		],
+		"lock": [
+			"The lock wants four tones. Someone drew them on a wall.",
+			"Lyra drew the sequence on the classroom wall on Level 2: circle, triangle, diamond, square. Press E at the lock and play the tones in that order. A laser grid crosses the corridor: switch it off at the panel in Lab B."
+		],
+		"chamber": [
+			"The way down is open.",
+			"Go through the open lock at the east end of the labs and down the last stairs."
+		],
+		"choir": [
+			"Hit the heart only while it is swollen and bright.",
+			"Jump the rings (Space) and stay off the burning edge. In the second phase strike the three pillars to open the heart; in the third, follow Lyra's calls."
+		],
+		"sever": [
+			"Go to the heart.",
+			"Walk up to the heart at the edge of the platform and press E."
+		]
+	}
+}

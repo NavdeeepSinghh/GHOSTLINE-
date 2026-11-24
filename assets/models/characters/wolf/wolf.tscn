@@ -1,0 +1,1903 @@
+[gd_scene format=3]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_tua20"]
+albedo_color = Color(0.3, 0.28, 0.25, 1)
+roughness = 0.92
+
+[sub_resource type="BoxMesh" id="BoxMesh_riyne"]
+size = Vector3(0.34, 0.32, 0.86)
+
+[sub_resource type="BoxMesh" id="BoxMesh_kvkvk"]
+size = Vector3(0.4, 0.42, 0.36)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_mm6vb"]
+albedo_color = Color(0.48, 0.44, 0.38, 1)
+roughness = 0.92
+
+[sub_resource type="BoxMesh" id="BoxMesh_dga8v"]
+size = Vector3(0.26, 0.08, 0.6)
+
+[sub_resource type="BoxMesh" id="BoxMesh_85e2u"]
+size = Vector3(0.34, 0.3, 0.3)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_0nrfn"]
+albedo_color = Color(0.16, 0.15, 0.14, 1)
+roughness = 0.92
+
+[sub_resource type="BoxMesh" id="BoxMesh_btgr4"]
+size = Vector3(0.24, 0.06, 0.8)
+
+[sub_resource type="BoxMesh" id="BoxMesh_ye2eg"]
+size = Vector3(0.46, 0.44, 0.22)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jgwpe"]
+albedo_color = Color(0.05, 0.2, 0.24, 1)
+emission_enabled = true
+emission = Color(0.27, 0.92, 1, 1)
+emission_energy_multiplier = 1.6
+
+[sub_resource type="BoxMesh" id="BoxMesh_xgo4i"]
+size = Vector3(0.03, 0.03, 0.62)
+
+[sub_resource type="BoxMesh" id="BoxMesh_jp3c3"]
+size = Vector3(0.02, 0.2, 0.025)
+
+[sub_resource type="BoxMesh" id="BoxMesh_8nxlo"]
+size = Vector3(0.02, 0.2, 0.025)
+
+[sub_resource type="BoxMesh" id="BoxMesh_id8ps"]
+size = Vector3(0.02, 0.2, 0.025)
+
+[sub_resource type="BoxMesh" id="BoxMesh_0uc2o"]
+size = Vector3(0.02, 0.2, 0.025)
+
+[sub_resource type="BoxMesh" id="BoxMesh_4yia5"]
+size = Vector3(0.02, 0.2, 0.025)
+
+[sub_resource type="BoxMesh" id="BoxMesh_644tb"]
+size = Vector3(0.02, 0.2, 0.025)
+
+[sub_resource type="BoxMesh" id="BoxMesh_wy240"]
+size = Vector3(0.22, 0.24, 0.3)
+
+[sub_resource type="BoxMesh" id="BoxMesh_t5irg"]
+size = Vector3(0.26, 0.22, 0.26)
+
+[sub_resource type="BoxMesh" id="BoxMesh_7woxu"]
+size = Vector3(0.24, 0.05, 0.1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_bwqre"]
+size = Vector3(0.14, 0.11, 0.22)
+
+[sub_resource type="BoxMesh" id="BoxMesh_oudhw"]
+size = Vector3(0.1, 0.04, 0.2)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_1vm6y"]
+albedo_color = Color(0.03, 0.03, 0.03, 1)
+roughness = 0.92
+
+[sub_resource type="BoxMesh" id="BoxMesh_1fi0j"]
+size = Vector3(0.06, 0.05, 0.04)
+
+[sub_resource type="PrismMesh" id="PrismMesh_ltb1b"]
+size = Vector3(0.09, 0.13, 0.05)
+
+[sub_resource type="SphereMesh" id="SphereMesh_cmfc1"]
+radius = 0.024
+height = 0.034
+radial_segments = 8
+rings = 4
+
+[sub_resource type="PrismMesh" id="PrismMesh_85wlk"]
+size = Vector3(0.09, 0.13, 0.05)
+
+[sub_resource type="SphereMesh" id="SphereMesh_iyjm8"]
+radius = 0.024
+height = 0.034
+radial_segments = 8
+rings = 4
+
+[sub_resource type="BoxMesh" id="BoxMesh_grmav"]
+size = Vector3(0.12, 0.045, 0.2)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_w2yp3"]
+albedo_color = Color(0.82, 0.8, 0.72, 1)
+roughness = 0.92
+
+[sub_resource type="BoxMesh" id="BoxMesh_crdnm"]
+size = Vector3(0.02, 0.05, 0.02)
+
+[sub_resource type="BoxMesh" id="BoxMesh_2ra42"]
+size = Vector3(0.02, 0.05, 0.02)
+
+[sub_resource type="BoxMesh" id="BoxMesh_d7dbq"]
+size = Vector3(0.02, 0.05, 0.02)
+
+[sub_resource type="BoxMesh" id="BoxMesh_k01bf"]
+size = Vector3(0.02, 0.05, 0.02)
+
+[sub_resource type="BoxMesh" id="BoxMesh_ik2wj"]
+size = Vector3(0.1, 0.3, 0.12)
+
+[sub_resource type="BoxMesh" id="BoxMesh_7b8pt"]
+size = Vector3(0.075, 0.26, 0.08)
+
+[sub_resource type="BoxMesh" id="BoxMesh_7u7tu"]
+size = Vector3(0.1, 0.05, 0.13)
+
+[sub_resource type="BoxMesh" id="BoxMesh_08aep"]
+size = Vector3(0.1, 0.3, 0.12)
+
+[sub_resource type="BoxMesh" id="BoxMesh_brpyw"]
+size = Vector3(0.075, 0.26, 0.08)
+
+[sub_resource type="BoxMesh" id="BoxMesh_j8si3"]
+size = Vector3(0.1, 0.05, 0.13)
+
+[sub_resource type="BoxMesh" id="BoxMesh_u07e2"]
+size = Vector3(0.11, 0.32, 0.14)
+
+[sub_resource type="BoxMesh" id="BoxMesh_kd5op"]
+size = Vector3(0.075, 0.26, 0.08)
+
+[sub_resource type="BoxMesh" id="BoxMesh_l1gr4"]
+size = Vector3(0.1, 0.05, 0.13)
+
+[sub_resource type="BoxMesh" id="BoxMesh_40ob7"]
+size = Vector3(0.11, 0.32, 0.14)
+
+[sub_resource type="BoxMesh" id="BoxMesh_jc87r"]
+size = Vector3(0.075, 0.26, 0.08)
+
+[sub_resource type="BoxMesh" id="BoxMesh_jhnos"]
+size = Vector3(0.1, 0.05, 0.13)
+
+[sub_resource type="BoxMesh" id="BoxMesh_2fngg"]
+size = Vector3(0.09, 0.09, 0.26)
+
+[sub_resource type="BoxMesh" id="BoxMesh_0v5bs"]
+size = Vector3(0.11, 0.11, 0.26)
+
+[sub_resource type="Animation" id="Animation_ttdtm"]
+length = 0.75
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Body/Neck:rotation")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Body/Tail:rotation")
+tracks/1/interp = 2
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(-0.55, 0, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Body/Tail/TailTip:rotation")
+tracks/2/interp = 2
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Body/LegFL/KneeFL:rotation")
+tracks/3/interp = 2
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("Body/LegFR/KneeFR:rotation")
+tracks/4/interp = 2
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("Body/LegBL/KneeBL:rotation")
+tracks/5/interp = 2
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("Body/LegBR/KneeBR:rotation")
+tracks/6/interp = 2
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("Body:position")
+tracks/7/interp = 2
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(0, 0.2, 0.34, 0.55, 0.75),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector3(0, 0.67, 0), Vector3(0, 0.57, -0.12), Vector3(0, 0.75, 0.3), Vector3(0, 0.67, 0.2), Vector3(0, 0.67, 0)]
+}
+tracks/8/type = "value"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("Body:rotation")
+tracks/8/interp = 2
+tracks/8/loop_wrap = true
+tracks/8/keys = {
+"times": PackedFloat32Array(0, 0.2, 0.34, 0.75),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(0.12, 0, 0), Vector3(-0.15, 0, 0), Vector3(0, 0, 0)]
+}
+tracks/9/type = "value"
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/path = NodePath("Body/Neck/Head:rotation")
+tracks/9/interp = 2
+tracks/9/loop_wrap = true
+tracks/9/keys = {
+"times": PackedFloat32Array(0, 0.2, 0.34, 0.75),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Vector3(0.1, 0, 0), Vector3(0.35, 0, 0), Vector3(-0.1, 0, 0), Vector3(0.1, 0, 0)]
+}
+tracks/10/type = "value"
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/path = NodePath("Body/Neck/Head/Jaw:rotation")
+tracks/10/interp = 2
+tracks/10/loop_wrap = true
+tracks/10/keys = {
+"times": PackedFloat32Array(0, 0.24, 0.34, 0.5, 0.75),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector3(0.05, 0, 0), Vector3(0.75, 0, 0), Vector3(0, 0, 0), Vector3(0.2, 0, 0), Vector3(0.05, 0, 0)]
+}
+tracks/11/type = "value"
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/path = NodePath("Body/LegFL:rotation")
+tracks/11/interp = 2
+tracks/11/loop_wrap = true
+tracks/11/keys = {
+"times": PackedFloat32Array(0, 0.2, 0.34, 0.55, 0.75),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(0.3, 0, 0), Vector3(-0.9, 0, 0), Vector3(-0.2, 0, 0), Vector3(0, 0, 0)]
+}
+tracks/12/type = "value"
+tracks/12/imported = false
+tracks/12/enabled = true
+tracks/12/path = NodePath("Body/LegFR:rotation")
+tracks/12/interp = 2
+tracks/12/loop_wrap = true
+tracks/12/keys = {
+"times": PackedFloat32Array(0, 0.2, 0.34, 0.55, 0.75),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(0.3, 0, 0), Vector3(-0.9, 0, 0), Vector3(-0.2, 0, 0), Vector3(0, 0, 0)]
+}
+tracks/13/type = "value"
+tracks/13/imported = false
+tracks/13/enabled = true
+tracks/13/path = NodePath("Body/LegBL:rotation")
+tracks/13/interp = 2
+tracks/13/loop_wrap = true
+tracks/13/keys = {
+"times": PackedFloat32Array(0, 0.2, 0.34, 0.55, 0.75),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(-0.35, 0, 0), Vector3(0.7, 0, 0), Vector3(0.2, 0, 0), Vector3(0, 0, 0)]
+}
+tracks/14/type = "value"
+tracks/14/imported = false
+tracks/14/enabled = true
+tracks/14/path = NodePath("Body/LegBR:rotation")
+tracks/14/interp = 2
+tracks/14/loop_wrap = true
+tracks/14/keys = {
+"times": PackedFloat32Array(0, 0.2, 0.34, 0.55, 0.75),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(-0.35, 0, 0), Vector3(0.7, 0, 0), Vector3(0.2, 0, 0), Vector3(0, 0, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_jnhfd"]
+length = 1.2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Body/Neck:rotation")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Body/Tail/TailTip:rotation")
+tracks/1/interp = 2
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Body/LegFL/KneeFL:rotation")
+tracks/2/interp = 2
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Body/LegFR/KneeFR:rotation")
+tracks/3/interp = 2
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("Body/LegBL/KneeBL:rotation")
+tracks/4/interp = 2
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("Body/LegBR/KneeBR:rotation")
+tracks/5/interp = 2
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("Body:position")
+tracks/6/interp = 2
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0, 0.35, 0.8, 1.2),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Vector3(0, 0.67, 0), Vector3(0, 0.42, 0), Vector3(0, 0.22, 0), Vector3(0, 0.2, 0)]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("Body:rotation")
+tracks/7/interp = 2
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(0, 0.35, 0.8, 1.2),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(0.15, 0, 0.1), Vector3(0.05, 0, 1.45), Vector3(0, 0, 1.5)]
+}
+tracks/8/type = "value"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("Body/Neck/Head:rotation")
+tracks/8/interp = 2
+tracks/8/loop_wrap = true
+tracks/8/keys = {
+"times": PackedFloat32Array(0, 0.3, 1.2),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector3(0.1, 0, 0), Vector3(-0.4, 0, 0), Vector3(0.3, 0, -0.2)]
+}
+tracks/9/type = "value"
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/path = NodePath("Body/Neck/Head/Jaw:rotation")
+tracks/9/interp = 2
+tracks/9/loop_wrap = true
+tracks/9/keys = {
+"times": PackedFloat32Array(0, 0.3, 1.2),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(0.6, 0, 0), Vector3(0.25, 0, 0)]
+}
+tracks/10/type = "value"
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/path = NodePath("Body/Tail:rotation")
+tracks/10/interp = 2
+tracks/10/loop_wrap = true
+tracks/10/keys = {
+"times": PackedFloat32Array(0, 1.2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(-0.55, 0, 0), Vector3(-0.1, 0.3, 0)]
+}
+tracks/11/type = "value"
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/path = NodePath("Body/LegFL:rotation")
+tracks/11/interp = 2
+tracks/11/loop_wrap = true
+tracks/11/keys = {
+"times": PackedFloat32Array(0, 0.35, 1.2),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(-0.25, 0, 0), Vector3(-0.5, 0, 0)]
+}
+tracks/12/type = "value"
+tracks/12/imported = false
+tracks/12/enabled = true
+tracks/12/path = NodePath("Body/LegFR:rotation")
+tracks/12/interp = 2
+tracks/12/loop_wrap = true
+tracks/12/keys = {
+"times": PackedFloat32Array(0, 0.35, 1.2),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(-0.25, 0, 0), Vector3(-0.5, 0, 0)]
+}
+tracks/13/type = "value"
+tracks/13/imported = false
+tracks/13/enabled = true
+tracks/13/path = NodePath("Body/LegBL:rotation")
+tracks/13/interp = 2
+tracks/13/loop_wrap = true
+tracks/13/keys = {
+"times": PackedFloat32Array(0, 0.35, 1.2),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(0.25, 0, 0), Vector3(0.5, 0, 0)]
+}
+tracks/14/type = "value"
+tracks/14/imported = false
+tracks/14/enabled = true
+tracks/14/path = NodePath("Body/LegBR:rotation")
+tracks/14/interp = 2
+tracks/14/loop_wrap = true
+tracks/14/keys = {
+"times": PackedFloat32Array(0, 0.35, 1.2),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(0.25, 0, 0), Vector3(0.5, 0, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_0ykyk"]
+length = 0.4
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Body/Neck:rotation")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Body/Neck/Head/Jaw:rotation")
+tracks/1/interp = 2
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Body/Tail:rotation")
+tracks/2/interp = 2
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(-0.55, 0, 0)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Body/Tail/TailTip:rotation")
+tracks/3/interp = 2
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("Body/LegFL:rotation")
+tracks/4/interp = 2
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("Body/LegFL/KneeFL:rotation")
+tracks/5/interp = 2
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("Body/LegFR:rotation")
+tracks/6/interp = 2
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("Body/LegFR/KneeFR:rotation")
+tracks/7/interp = 2
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/8/type = "value"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("Body/LegBL:rotation")
+tracks/8/interp = 2
+tracks/8/loop_wrap = true
+tracks/8/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/9/type = "value"
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/path = NodePath("Body/LegBL/KneeBL:rotation")
+tracks/9/interp = 2
+tracks/9/loop_wrap = true
+tracks/9/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/10/type = "value"
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/path = NodePath("Body/LegBR:rotation")
+tracks/10/interp = 2
+tracks/10/loop_wrap = true
+tracks/10/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/11/type = "value"
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/path = NodePath("Body/LegBR/KneeBR:rotation")
+tracks/11/interp = 2
+tracks/11/loop_wrap = true
+tracks/11/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/12/type = "value"
+tracks/12/imported = false
+tracks/12/enabled = true
+tracks/12/path = NodePath("Body:position")
+tracks/12/interp = 2
+tracks/12/loop_wrap = true
+tracks/12/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0.67, 0)]
+}
+tracks/13/type = "value"
+tracks/13/imported = false
+tracks/13/enabled = true
+tracks/13/path = NodePath("Body:rotation")
+tracks/13/interp = 2
+tracks/13/loop_wrap = true
+tracks/13/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.4),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(-0.1, 0, 0.18), Vector3(0, 0, 0)]
+}
+tracks/14/type = "value"
+tracks/14/imported = false
+tracks/14/enabled = true
+tracks/14/path = NodePath("Body/Neck/Head:rotation")
+tracks/14/interp = 2
+tracks/14/loop_wrap = true
+tracks/14/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.4),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector3(0.1, 0, 0), Vector3(-0.45, 0.3, 0), Vector3(0.1, 0, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_p2dsm"]
+length = 1.4
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Body/Tail:rotation")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(-0.55, 0, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Body/Tail/TailTip:rotation")
+tracks/1/interp = 2
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Body/LegFL:rotation")
+tracks/2/interp = 2
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Body/LegFL/KneeFL:rotation")
+tracks/3/interp = 2
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("Body/LegFR:rotation")
+tracks/4/interp = 2
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("Body/LegFR/KneeFR:rotation")
+tracks/5/interp = 2
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("Body/LegBL:rotation")
+tracks/6/interp = 2
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("Body/LegBL/KneeBL:rotation")
+tracks/7/interp = 2
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/8/type = "value"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("Body/LegBR:rotation")
+tracks/8/interp = 2
+tracks/8/loop_wrap = true
+tracks/8/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/9/type = "value"
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/path = NodePath("Body/LegBR/KneeBR:rotation")
+tracks/9/interp = 2
+tracks/9/loop_wrap = true
+tracks/9/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/10/type = "value"
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/path = NodePath("Body:position")
+tracks/10/interp = 2
+tracks/10/loop_wrap = true
+tracks/10/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0.67, 0)]
+}
+tracks/11/type = "value"
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/path = NodePath("Body:rotation")
+tracks/11/interp = 2
+tracks/11/loop_wrap = true
+tracks/11/keys = {
+"times": PackedFloat32Array(0, 0.4, 1.1, 1.4),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(-0.12, 0, 0), Vector3(-0.12, 0, 0), Vector3(0, 0, 0)]
+}
+tracks/12/type = "value"
+tracks/12/imported = false
+tracks/12/enabled = true
+tracks/12/path = NodePath("Body/Neck:rotation")
+tracks/12/interp = 2
+tracks/12/loop_wrap = true
+tracks/12/keys = {
+"times": PackedFloat32Array(0, 0.4, 1.1, 1.4),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(-0.28, 0, 0), Vector3(-0.28, 0, 0), Vector3(0, 0, 0)]
+}
+tracks/13/type = "value"
+tracks/13/imported = false
+tracks/13/enabled = true
+tracks/13/path = NodePath("Body/Neck/Head:rotation")
+tracks/13/interp = 2
+tracks/13/loop_wrap = true
+tracks/13/keys = {
+"times": PackedFloat32Array(0, 0.4, 1.1, 1.4),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Vector3(0.1, 0, 0), Vector3(-0.45, 0, 0), Vector3(-0.5, 0, 0), Vector3(0.1, 0, 0)]
+}
+tracks/14/type = "value"
+tracks/14/imported = false
+tracks/14/enabled = true
+tracks/14/path = NodePath("Body/Neck/Head/Jaw:rotation")
+tracks/14/interp = 2
+tracks/14/loop_wrap = true
+tracks/14/keys = {
+"times": PackedFloat32Array(0, 0.45, 1.05, 1.4),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(0.55, 0, 0), Vector3(0.5, 0, 0), Vector3(0, 0, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_7iiso"]
+length = 2.4
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Body:rotation")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Body/Neck:rotation")
+tracks/1/interp = 2
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Body/Tail/TailTip:rotation")
+tracks/2/interp = 2
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Body/LegFL:rotation")
+tracks/3/interp = 2
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("Body/LegFL/KneeFL:rotation")
+tracks/4/interp = 2
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("Body/LegFR:rotation")
+tracks/5/interp = 2
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("Body/LegFR/KneeFR:rotation")
+tracks/6/interp = 2
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("Body/LegBL:rotation")
+tracks/7/interp = 2
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/8/type = "value"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("Body/LegBL/KneeBL:rotation")
+tracks/8/interp = 2
+tracks/8/loop_wrap = true
+tracks/8/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/9/type = "value"
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/path = NodePath("Body/LegBR:rotation")
+tracks/9/interp = 2
+tracks/9/loop_wrap = true
+tracks/9/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/10/type = "value"
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/path = NodePath("Body/LegBR/KneeBR:rotation")
+tracks/10/interp = 2
+tracks/10/loop_wrap = true
+tracks/10/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/11/type = "value"
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/path = NodePath("Body:position")
+tracks/11/interp = 2
+tracks/11/loop_wrap = true
+tracks/11/keys = {
+"times": PackedFloat32Array(0, 1.2, 2.4),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector3(0, 0.67, 0), Vector3(0, 0.68, 0), Vector3(0, 0.67, 0)]
+}
+tracks/12/type = "value"
+tracks/12/imported = false
+tracks/12/enabled = true
+tracks/12/path = NodePath("Body/Neck/Head:rotation")
+tracks/12/interp = 2
+tracks/12/loop_wrap = true
+tracks/12/keys = {
+"times": PackedFloat32Array(0, 0.8, 1.6, 2.4),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Vector3(0.15, 0, 0), Vector3(0.1, 0.25, 0), Vector3(0.18, -0.2, 0), Vector3(0.15, 0, 0)]
+}
+tracks/13/type = "value"
+tracks/13/imported = false
+tracks/13/enabled = true
+tracks/13/path = NodePath("Body/Neck/Head/Jaw:rotation")
+tracks/13/interp = 2
+tracks/13/loop_wrap = true
+tracks/13/keys = {
+"times": PackedFloat32Array(0, 1.2, 2.4),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector3(0.08, 0, 0), Vector3(0.15, 0, 0), Vector3(0.08, 0, 0)]
+}
+tracks/14/type = "value"
+tracks/14/imported = false
+tracks/14/enabled = true
+tracks/14/path = NodePath("Body/Tail:rotation")
+tracks/14/interp = 2
+tracks/14/loop_wrap = true
+tracks/14/keys = {
+"times": PackedFloat32Array(0, 1.2, 2.4),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector3(-0.6, 0.2, 0), Vector3(-0.6, -0.2, 0), Vector3(-0.6, 0.2, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_kjtxt"]
+length = 0.5
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Body/Neck:rotation")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Body/Neck/Head/Jaw:rotation")
+tracks/1/interp = 2
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Body/Tail/TailTip:rotation")
+tracks/2/interp = 2
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Body/LegFL:rotation")
+tracks/3/interp = 2
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 0.0625, 0.125, 0.1875, 0.25, 0.3125, 0.375, 0.4375, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(0.5091169, 0, 0), Vector3(0.72, 0, 0), Vector3(0.5091169, 0, 0), Vector3(8.817457e-17, 0, 0), Vector3(-0.5091169, 0, 0), Vector3(-0.72, 0, 0), Vector3(-0.5091169, 0, 0), Vector3(-1.7634914e-16, 0, 0)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("Body/LegFL/KneeFL:rotation")
+tracks/4/interp = 2
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0, 0.0625, 0.125, 0.1875, 0.25, 0.3125, 0.375, 0.4375, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector3(0.95, 0, 0), Vector3(0.67175144, 0, 0), Vector3(5.817072e-17, 0, 0), Vector3(0, 0, 0), Vector3(0, 0, 0), Vector3(0, 0, 0), Vector3(0, 0, 0), Vector3(0.67175144, 0, 0), Vector3(0.95, 0, 0)]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("Body/LegFR:rotation")
+tracks/5/interp = 2
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0, 0.0625, 0.125, 0.1875, 0.25, 0.3125, 0.375, 0.4375, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector3(0.34686264, 0, 0), Vector3(0.69141144, 0, 0), Vector3(0.6309408, 0, 0), Vector3(0.2008736, 0, 0), Vector3(-0.34686264, 0, 0), Vector3(-0.69141144, 0, 0), Vector3(-0.6309408, 0, 0), Vector3(-0.2008736, 0, 0), Vector3(0.34686264, 0, 0)]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("Body/LegFR/KneeFR:rotation")
+tracks/6/interp = 2
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0, 0.0625, 0.125, 0.1875, 0.25, 0.3125, 0.375, 0.4375, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector3(0.83249134, 0, 0), Vector3(0.26504156, 0, 0), Vector3(0, 0, 0), Vector3(0, 0, 0), Vector3(0, 0, 0), Vector3(0, 0, 0), Vector3(0.45766598, 0, 0), Vector3(0.912279, 0, 0), Vector3(0.83249134, 0, 0)]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("Body/LegBL:rotation")
+tracks/7/interp = 2
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(0, 0.0625, 0.125, 0.1875, 0.25, 0.3125, 0.375, 0.4375, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector3(8.817457e-17, 0, 0), Vector3(-0.5091169, 0, 0), Vector3(-0.72, 0, 0), Vector3(-0.5091169, 0, 0), Vector3(-1.7634914e-16, 0, 0), Vector3(0.5091169, 0, 0), Vector3(0.72, 0, 0), Vector3(0.5091169, 0, 0), Vector3(2.645237e-16, 0, 0)]
+}
+tracks/8/type = "value"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("Body/LegBL/KneeBL:rotation")
+tracks/8/interp = 2
+tracks/8/loop_wrap = true
+tracks/8/keys = {
+"times": PackedFloat32Array(0, 0.0625, 0.125, 0.1875, 0.25, 0.3125, 0.375, 0.4375, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(0, 0, 0), Vector3(0, 0, 0), Vector3(-0.67175144, 0, 0), Vector3(-0.95, 0, 0), Vector3(-0.67175144, 0, 0), Vector3(-2.9085362e-16, 0, 0), Vector3(0, 0, 0), Vector3(0, 0, 0)]
+}
+tracks/9/type = "value"
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/path = NodePath("Body/LegBR:rotation")
+tracks/9/interp = 2
+tracks/9/loop_wrap = true
+tracks/9/keys = {
+"times": PackedFloat32Array(0, 0.0625, 0.125, 0.1875, 0.25, 0.3125, 0.375, 0.4375, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector3(-0.34686264, 0, 0), Vector3(-0.69141144, 0, 0), Vector3(-0.6309408, 0, 0), Vector3(-0.2008736, 0, 0), Vector3(0.34686264, 0, 0), Vector3(0.69141144, 0, 0), Vector3(0.6309408, 0, 0), Vector3(0.2008736, 0, 0), Vector3(-0.34686264, 0, 0)]
+}
+tracks/10/type = "value"
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/path = NodePath("Body/LegBR/KneeBR:rotation")
+tracks/10/interp = 2
+tracks/10/loop_wrap = true
+tracks/10/keys = {
+"times": PackedFloat32Array(0, 0.0625, 0.125, 0.1875, 0.25, 0.3125, 0.375, 0.4375, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(0, 0, 0), Vector3(-0.45766598, 0, 0), Vector3(-0.912279, 0, 0), Vector3(-0.83249134, 0, 0), Vector3(-0.26504156, 0, 0), Vector3(0, 0, 0), Vector3(0, 0, 0), Vector3(0, 0, 0)]
+}
+tracks/11/type = "value"
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/path = NodePath("Body:rotation")
+tracks/11/interp = 2
+tracks/11/loop_wrap = true
+tracks/11/keys = {
+"times": PackedFloat32Array(0, 0.0625, 0.125, 0.1875, 0.25, 0.3125, 0.375, 0.4375, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(0.07071068, 0, 0), Vector3(0.1, 0, 0), Vector3(0.07071068, 0, 0), Vector3(1.2246468e-17, 0, 0), Vector3(-0.07071068, 0, 0), Vector3(-0.1, 0, 0), Vector3(-0.07071068, 0, 0), Vector3(-2.4492935e-17, 0, 0)]
+}
+tracks/12/type = "value"
+tracks/12/imported = false
+tracks/12/enabled = true
+tracks/12/path = NodePath("Body:position")
+tracks/12/interp = 2
+tracks/12/loop_wrap = true
+tracks/12/keys = {
+"times": PackedFloat32Array(0, 0.0625, 0.125, 0.1875, 0.25, 0.3125, 0.375, 0.4375, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector3(0, 0.67, 0), Vector3(0, 0.70535535, 0), Vector3(0, 0.72, 0), Vector3(0, 0.70535535, 0), Vector3(0, 0.67, 0), Vector3(0, 0.70535535, 0), Vector3(0, 0.72, 0), Vector3(0, 0.70535535, 0), Vector3(0, 0.67, 0)]
+}
+tracks/13/type = "value"
+tracks/13/imported = false
+tracks/13/enabled = true
+tracks/13/path = NodePath("Body/Neck/Head:rotation")
+tracks/13/interp = 2
+tracks/13/loop_wrap = true
+tracks/13/keys = {
+"times": PackedFloat32Array(0, 0.0625, 0.125, 0.1875, 0.25, 0.3125, 0.375, 0.4375, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector3(0.1, 0, 0), Vector3(0.043431457, 0, 0), Vector3(0.02, 0, 0), Vector3(0.043431457, 0, 0), Vector3(0.1, 0, 0), Vector3(0.15656854, 0, 0), Vector3(0.18, 0, 0), Vector3(0.15656854, 0, 0), Vector3(0.1, 0, 0)]
+}
+tracks/14/type = "value"
+tracks/14/imported = false
+tracks/14/enabled = true
+tracks/14/path = NodePath("Body/Tail:rotation")
+tracks/14/interp = 2
+tracks/14/loop_wrap = true
+tracks/14/keys = {
+"times": PackedFloat32Array(0, 0.0625, 0.125, 0.1875, 0.25, 0.3125, 0.375, 0.4375, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector3(-0.55, 0, 0), Vector3(-0.55, 0.1, 0), Vector3(-0.55, 1.2246468e-17, 0), Vector3(-0.55, -0.1, 0), Vector3(-0.55, -2.4492935e-17, 0), Vector3(-0.55, 0.1, 0), Vector3(-0.55, 3.6739406e-17, 0), Vector3(-0.55, -0.1, 0), Vector3(-0.55, -4.898587e-17, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_u5q2b"]
+length = 0.9
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Body/Neck:rotation")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Body/Neck/Head/Jaw:rotation")
+tracks/1/interp = 2
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Body/Tail:rotation")
+tracks/2/interp = 2
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(-0.55, 0, 0)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Body/Tail/TailTip:rotation")
+tracks/3/interp = 2
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("Body/LegFL/KneeFL:rotation")
+tracks/4/interp = 2
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("Body/LegFR/KneeFR:rotation")
+tracks/5/interp = 2
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("Body/LegBL:rotation")
+tracks/6/interp = 2
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("Body/LegBL/KneeBL:rotation")
+tracks/7/interp = 2
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/8/type = "value"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("Body/LegBR:rotation")
+tracks/8/interp = 2
+tracks/8/loop_wrap = true
+tracks/8/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/9/type = "value"
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/path = NodePath("Body/LegBR/KneeBR:rotation")
+tracks/9/interp = 2
+tracks/9/loop_wrap = true
+tracks/9/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/10/type = "value"
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/path = NodePath("Body:rotation")
+tracks/10/interp = 2
+tracks/10/loop_wrap = true
+tracks/10/keys = {
+"times": PackedFloat32Array(0, 0.2, 0.45, 0.9),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(0, 0, 0.3), Vector3(0, 0, -0.2), Vector3(0, 0, 0)]
+}
+tracks/11/type = "value"
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/path = NodePath("Body:position")
+tracks/11/interp = 2
+tracks/11/loop_wrap = true
+tracks/11/keys = {
+"times": PackedFloat32Array(0, 0.25, 0.9),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector3(0, 0.67, 0), Vector3(0.1, 0.55, -0.15), Vector3(0, 0.67, 0)]
+}
+tracks/12/type = "value"
+tracks/12/imported = false
+tracks/12/enabled = true
+tracks/12/path = NodePath("Body/Neck/Head:rotation")
+tracks/12/interp = 2
+tracks/12/loop_wrap = true
+tracks/12/keys = {
+"times": PackedFloat32Array(0, 0.3, 0.9),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector3(0.1, 0, 0), Vector3(0.6, -0.3, 0), Vector3(0.1, 0, 0)]
+}
+tracks/13/type = "value"
+tracks/13/imported = false
+tracks/13/enabled = true
+tracks/13/path = NodePath("Body/LegFL:rotation")
+tracks/13/interp = 2
+tracks/13/loop_wrap = true
+tracks/13/keys = {
+"times": PackedFloat32Array(0, 0.3, 0.9),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(-0.3, 0, -0.25), Vector3(0, 0, 0)]
+}
+tracks/14/type = "value"
+tracks/14/imported = false
+tracks/14/enabled = true
+tracks/14/path = NodePath("Body/LegFR:rotation")
+tracks/14/interp = 2
+tracks/14/loop_wrap = true
+tracks/14/keys = {
+"times": PackedFloat32Array(0, 0.3, 0.9),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(0.2, 0, 0.25), Vector3(0, 0, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_6lle2"]
+length = 0.9
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Body/Neck:rotation")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Body/Neck/Head/Jaw:rotation")
+tracks/1/interp = 2
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Body/Tail/TailTip:rotation")
+tracks/2/interp = 2
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Body/LegFL:rotation")
+tracks/3/interp = 2
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 0.1125, 0.225, 0.3375, 0.45, 0.5625, 0.675, 0.7875, 0.9),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(0.26870057, 0, 0), Vector3(0.38, 0, 0), Vector3(0.26870057, 0, 0), Vector3(4.653658e-17, 0, 0), Vector3(-0.26870057, 0, 0), Vector3(-0.38, 0, 0), Vector3(-0.26870057, 0, 0), Vector3(-9.307316e-17, 0, 0)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("Body/LegFL/KneeFL:rotation")
+tracks/4/interp = 2
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0, 0.1125, 0.225, 0.3375, 0.45, 0.5625, 0.675, 0.7875, 0.9),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector3(0.55, 0, 0), Vector3(0.38890874, 0, 0), Vector3(3.367779e-17, 0, 0), Vector3(0, 0, 0), Vector3(0, 0, 0), Vector3(0, 0, 0), Vector3(0, 0, 0), Vector3(0.38890874, 0, 0), Vector3(0.55, 0, 0)]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("Body/LegFR:rotation")
+tracks/5/interp = 2
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0, 0.1125, 0.225, 0.3375, 0.45, 0.5625, 0.675, 0.7875, 0.9),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector3(4.653658e-17, 0, 0), Vector3(-0.26870057, 0, 0), Vector3(-0.38, 0, 0), Vector3(-0.26870057, 0, 0), Vector3(-9.307316e-17, 0, 0), Vector3(0.26870057, 0, 0), Vector3(0.38, 0, 0), Vector3(0.26870057, 0, 0), Vector3(1.3960973e-16, 0, 0)]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("Body/LegFR/KneeFR:rotation")
+tracks/6/interp = 2
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0, 0.1125, 0.225, 0.3375, 0.45, 0.5625, 0.675, 0.7875, 0.9),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(0, 0, 0), Vector3(0, 0, 0), Vector3(0.38890874, 0, 0), Vector3(0.55, 0, 0), Vector3(0.38890874, 0, 0), Vector3(1.6838893e-16, 0, 0), Vector3(0, 0, 0), Vector3(0, 0, 0)]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("Body/LegBL:rotation")
+tracks/7/interp = 2
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(0, 0.1125, 0.225, 0.3375, 0.45, 0.5625, 0.675, 0.7875, 0.9),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector3(4.653658e-17, 0, 0), Vector3(-0.26870057, 0, 0), Vector3(-0.38, 0, 0), Vector3(-0.26870057, 0, 0), Vector3(-9.307316e-17, 0, 0), Vector3(0.26870057, 0, 0), Vector3(0.38, 0, 0), Vector3(0.26870057, 0, 0), Vector3(1.3960973e-16, 0, 0)]
+}
+tracks/8/type = "value"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("Body/LegBL/KneeBL:rotation")
+tracks/8/interp = 2
+tracks/8/loop_wrap = true
+tracks/8/keys = {
+"times": PackedFloat32Array(0, 0.1125, 0.225, 0.3375, 0.45, 0.5625, 0.675, 0.7875, 0.9),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(0, 0, 0), Vector3(0, 0, 0), Vector3(-0.38890874, 0, 0), Vector3(-0.55, 0, 0), Vector3(-0.38890874, 0, 0), Vector3(-1.6838893e-16, 0, 0), Vector3(0, 0, 0), Vector3(0, 0, 0)]
+}
+tracks/9/type = "value"
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/path = NodePath("Body/LegBR:rotation")
+tracks/9/interp = 2
+tracks/9/loop_wrap = true
+tracks/9/keys = {
+"times": PackedFloat32Array(0, 0.1125, 0.225, 0.3375, 0.45, 0.5625, 0.675, 0.7875, 0.9),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(0.26870057, 0, 0), Vector3(0.38, 0, 0), Vector3(0.26870057, 0, 0), Vector3(4.653658e-17, 0, 0), Vector3(-0.26870057, 0, 0), Vector3(-0.38, 0, 0), Vector3(-0.26870057, 0, 0), Vector3(-9.307316e-17, 0, 0)]
+}
+tracks/10/type = "value"
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/path = NodePath("Body/LegBR/KneeBR:rotation")
+tracks/10/interp = 2
+tracks/10/loop_wrap = true
+tracks/10/keys = {
+"times": PackedFloat32Array(0, 0.1125, 0.225, 0.3375, 0.45, 0.5625, 0.675, 0.7875, 0.9),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector3(-0.55, 0, 0), Vector3(-0.38890874, 0, 0), Vector3(-3.367779e-17, 0, 0), Vector3(0, 0, 0), Vector3(0, 0, 0), Vector3(0, 0, 0), Vector3(0, 0, 0), Vector3(-0.38890874, 0, 0), Vector3(-0.55, 0, 0)]
+}
+tracks/11/type = "value"
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/path = NodePath("Body:rotation")
+tracks/11/interp = 2
+tracks/11/loop_wrap = true
+tracks/11/keys = {
+"times": PackedFloat32Array(0, 0.1125, 0.225, 0.3375, 0.45, 0.5625, 0.675, 0.7875, 0.9),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(0, 0, 0), Vector3(0, 0, 0), Vector3(0, 0, 0), Vector3(0, 0, 0), Vector3(0, 0, 0), Vector3(0, 0, 0), Vector3(0, 0, 0), Vector3(0, 0, 0)]
+}
+tracks/12/type = "value"
+tracks/12/imported = false
+tracks/12/enabled = true
+tracks/12/path = NodePath("Body:position")
+tracks/12/interp = 2
+tracks/12/loop_wrap = true
+tracks/12/keys = {
+"times": PackedFloat32Array(0, 0.1125, 0.225, 0.3375, 0.45, 0.5625, 0.675, 0.7875, 0.9),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector3(0, 0.67, 0), Vector3(0, 0.6806066, 0), Vector3(0, 0.685, 0), Vector3(0, 0.6806066, 0), Vector3(0, 0.67, 0), Vector3(0, 0.6806066, 0), Vector3(0, 0.685, 0), Vector3(0, 0.6806066, 0), Vector3(0, 0.67, 0)]
+}
+tracks/13/type = "value"
+tracks/13/imported = false
+tracks/13/enabled = true
+tracks/13/path = NodePath("Body/Neck/Head:rotation")
+tracks/13/interp = 2
+tracks/13/loop_wrap = true
+tracks/13/keys = {
+"times": PackedFloat32Array(0, 0.1125, 0.225, 0.3375, 0.45, 0.5625, 0.675, 0.7875, 0.9),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector3(0.1, 0, 0), Vector3(0.1, 0, 0), Vector3(0.1, 0, 0), Vector3(0.1, 0, 0), Vector3(0.1, 0, 0), Vector3(0.1, 0, 0), Vector3(0.1, 0, 0), Vector3(0.1, 0, 0), Vector3(0.1, 0, 0)]
+}
+tracks/14/type = "value"
+tracks/14/imported = false
+tracks/14/enabled = true
+tracks/14/path = NodePath("Body/Tail:rotation")
+tracks/14/interp = 2
+tracks/14/loop_wrap = true
+tracks/14/keys = {
+"times": PackedFloat32Array(0, 0.1125, 0.225, 0.3375, 0.45, 0.5625, 0.675, 0.7875, 0.9),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector3(-0.35, 0, 0), Vector3(-0.35, 0.25, 0), Vector3(-0.35, 3.061617e-17, 0), Vector3(-0.35, -0.25, 0), Vector3(-0.35, -6.123234e-17, 0), Vector3(-0.35, 0.25, 0), Vector3(-0.35, 9.184851e-17, 0), Vector3(-0.35, -0.25, 0), Vector3(-0.35, -1.2246469e-16, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_0odrp"]
+_data = {
+&"Attack": SubResource("Animation_ttdtm"),
+&"Death": SubResource("Animation_jnhfd"),
+&"Hit": SubResource("Animation_0ykyk"),
+&"Howl": SubResource("Animation_p2dsm"),
+&"Idle": SubResource("Animation_7iiso"),
+&"Run": SubResource("Animation_kjtxt"),
+&"Stagger": SubResource("Animation_u5q2b"),
+&"Walk": SubResource("Animation_6lle2")
+}
+
+[node name="Wolf" type="Node3D" unique_id=727452491]
+
+[node name="Body" type="Node3D" parent="." unique_id=1302327638]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.67, 0)
+
+[node name="Torso" type="MeshInstance3D" parent="Body" unique_id=21474286]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.02)
+material_override = SubResource("StandardMaterial3D_tua20")
+mesh = SubResource("BoxMesh_riyne")
+
+[node name="Chest" type="MeshInstance3D" parent="Body" unique_id=1719518734]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.02, 0.28)
+material_override = SubResource("StandardMaterial3D_tua20")
+mesh = SubResource("BoxMesh_kvkvk")
+
+[node name="Belly" type="MeshInstance3D" parent="Body" unique_id=894898882]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.17, 0.02)
+material_override = SubResource("StandardMaterial3D_mm6vb")
+mesh = SubResource("BoxMesh_dga8v")
+
+[node name="Hips" type="MeshInstance3D" parent="Body" unique_id=1925443751]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.02, -0.34)
+material_override = SubResource("StandardMaterial3D_tua20")
+mesh = SubResource("BoxMesh_85e2u")
+
+[node name="Back" type="MeshInstance3D" parent="Body" unique_id=34567493]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.17, -0.02)
+material_override = SubResource("StandardMaterial3D_0nrfn")
+mesh = SubResource("BoxMesh_btgr4")
+
+[node name="Mane" type="MeshInstance3D" parent="Body" unique_id=1812890281]
+transform = Transform3D(1, 0, 0, 0, 0.9781476, 0.2079117, 0, -0.2079117, 0.9781476, 0, 0.06, 0.42)
+material_override = SubResource("StandardMaterial3D_0nrfn")
+mesh = SubResource("BoxMesh_ye2eg")
+
+[node name="GlowSpine" type="MeshInstance3D" parent="Body" unique_id=603078537]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.205, -0.04)
+material_override = SubResource("StandardMaterial3D_jgwpe")
+cast_shadow = 0
+mesh = SubResource("BoxMesh_xgo4i")
+
+[node name="GlowRib0L" type="MeshInstance3D" parent="Body" unique_id=1950403401]
+transform = Transform3D(0.9781476, 0.2079117, 0, -0.2079117, 0.9781476, 0, 0, 0, 1, -0.172, 0, 0.12)
+material_override = SubResource("StandardMaterial3D_jgwpe")
+cast_shadow = 0
+mesh = SubResource("BoxMesh_jp3c3")
+
+[node name="GlowRib0R" type="MeshInstance3D" parent="Body" unique_id=1210933772]
+transform = Transform3D(0.9781476, -0.2079117, 0, 0.2079117, 0.9781476, 0, 0, 0, 1, 0.172, 0, 0.12)
+material_override = SubResource("StandardMaterial3D_jgwpe")
+cast_shadow = 0
+mesh = SubResource("BoxMesh_8nxlo")
+
+[node name="GlowRib1L" type="MeshInstance3D" parent="Body" unique_id=1878553082]
+transform = Transform3D(0.9781476, 0.2079117, 0, -0.2079117, 0.9781476, 0, 0, 0, 1, -0.172, 0, -0.04)
+material_override = SubResource("StandardMaterial3D_jgwpe")
+cast_shadow = 0
+mesh = SubResource("BoxMesh_id8ps")
+
+[node name="GlowRib1R" type="MeshInstance3D" parent="Body" unique_id=1686897225]
+transform = Transform3D(0.9781476, -0.2079117, 0, 0.2079117, 0.9781476, 0, 0, 0, 1, 0.172, 0, -0.04)
+material_override = SubResource("StandardMaterial3D_jgwpe")
+cast_shadow = 0
+mesh = SubResource("BoxMesh_0uc2o")
+
+[node name="GlowRib2L" type="MeshInstance3D" parent="Body" unique_id=1956433653]
+transform = Transform3D(0.9781476, 0.2079117, 0, -0.2079117, 0.9781476, 0, 0, 0, 1, -0.172, 0, -0.2)
+material_override = SubResource("StandardMaterial3D_jgwpe")
+cast_shadow = 0
+mesh = SubResource("BoxMesh_4yia5")
+
+[node name="GlowRib2R" type="MeshInstance3D" parent="Body" unique_id=2840176]
+transform = Transform3D(0.9781476, -0.2079117, 0, 0.2079117, 0.9781476, 0, 0, 0, 1, 0.172, 0, -0.2)
+material_override = SubResource("StandardMaterial3D_jgwpe")
+cast_shadow = 0
+mesh = SubResource("BoxMesh_644tb")
+
+[node name="Neck" type="Node3D" parent="Body" unique_id=978052367]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.1, 0.42)
+
+[node name="NeckMesh" type="MeshInstance3D" parent="Body/Neck" unique_id=416157945]
+transform = Transform3D(1, 0, 0, 0, 0.90630776, 0.42261827, 0, -0.42261827, 0.90630776, 0, 0.06, 0.12)
+material_override = SubResource("StandardMaterial3D_tua20")
+mesh = SubResource("BoxMesh_wy240")
+
+[node name="Head" type="Node3D" parent="Body/Neck" unique_id=1704581003]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.15, 0.27)
+
+[node name="Skull" type="MeshInstance3D" parent="Body/Neck/Head" unique_id=1378282066]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.04)
+material_override = SubResource("StandardMaterial3D_tua20")
+mesh = SubResource("BoxMesh_t5irg")
+
+[node name="Brow" type="MeshInstance3D" parent="Body/Neck/Head" unique_id=2006616899]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.08, 0.13)
+material_override = SubResource("StandardMaterial3D_0nrfn")
+mesh = SubResource("BoxMesh_7woxu")
+
+[node name="Snout" type="MeshInstance3D" parent="Body/Neck/Head" unique_id=441249915]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.04, 0.26)
+material_override = SubResource("StandardMaterial3D_tua20")
+mesh = SubResource("BoxMesh_bwqre")
+
+[node name="SnoutTop" type="MeshInstance3D" parent="Body/Neck/Head" unique_id=259381307]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.02, 0.25)
+material_override = SubResource("StandardMaterial3D_0nrfn")
+mesh = SubResource("BoxMesh_oudhw")
+
+[node name="Nose" type="MeshInstance3D" parent="Body/Neck/Head" unique_id=1797185927]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.01, 0.38)
+material_override = SubResource("StandardMaterial3D_1vm6y")
+mesh = SubResource("BoxMesh_1fi0j")
+
+[node name="EarL" type="MeshInstance3D" parent="Body/Neck/Head" unique_id=2061297260]
+transform = Transform3D(0.9781476, -0.2079117, 0, 0.20475306, 0.96328735, 0.17364818, -0.036103487, -0.16985355, 0.9848077, -0.085, 0.17, -0.02)
+material_override = SubResource("StandardMaterial3D_0nrfn")
+mesh = SubResource("PrismMesh_ltb1b")
+
+[node name="L_Eyes" type="MeshInstance3D" parent="Body/Neck/Head" unique_id=434005023]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.075, 0.04, 0.17)
+mesh = SubResource("SphereMesh_cmfc1")
+
+[node name="EarR" type="MeshInstance3D" parent="Body/Neck/Head" unique_id=2078568746]
+transform = Transform3D(0.9781476, 0.2079117, 0, -0.20475306, 0.96328735, 0.17364818, 0.036103487, -0.16985355, 0.9848077, 0.085, 0.17, -0.02)
+material_override = SubResource("StandardMaterial3D_0nrfn")
+mesh = SubResource("PrismMesh_85wlk")
+
+[node name="R_Eyes" type="MeshInstance3D" parent="Body/Neck/Head" unique_id=2061172693]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.075, 0.04, 0.17)
+mesh = SubResource("SphereMesh_iyjm8")
+
+[node name="Jaw" type="Node3D" parent="Body/Neck/Head" unique_id=1182922629]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.09, 0.17)
+
+[node name="LowerJaw" type="MeshInstance3D" parent="Body/Neck/Head/Jaw" unique_id=451041955]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.01, 0.1)
+material_override = SubResource("StandardMaterial3D_mm6vb")
+mesh = SubResource("BoxMesh_grmav")
+
+[node name="FangL" type="MeshInstance3D" parent="Body/Neck/Head/Jaw" unique_id=2050446296]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.045, 0.03, 0.18)
+material_override = SubResource("StandardMaterial3D_w2yp3")
+mesh = SubResource("BoxMesh_crdnm")
+
+[node name="FangR" type="MeshInstance3D" parent="Body/Neck/Head/Jaw" unique_id=1910466314]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.045, 0.03, 0.18)
+material_override = SubResource("StandardMaterial3D_w2yp3")
+mesh = SubResource("BoxMesh_2ra42")
+
+[node name="UpperFangL" type="MeshInstance3D" parent="Body/Neck/Head" unique_id=1482370701]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.05, -0.11, 0.33)
+material_override = SubResource("StandardMaterial3D_w2yp3")
+mesh = SubResource("BoxMesh_d7dbq")
+
+[node name="UpperFangR" type="MeshInstance3D" parent="Body/Neck/Head" unique_id=432318460]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.05, -0.11, 0.33)
+material_override = SubResource("StandardMaterial3D_w2yp3")
+mesh = SubResource("BoxMesh_k01bf")
+
+[node name="LegFL" type="Node3D" parent="Body" unique_id=952540146]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.13, -0.08, 0.32)
+
+[node name="Upper" type="MeshInstance3D" parent="Body/LegFL" unique_id=1973476904]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.14, 0)
+material_override = SubResource("StandardMaterial3D_tua20")
+mesh = SubResource("BoxMesh_ik2wj")
+
+[node name="KneeFL" type="Node3D" parent="Body/LegFL" unique_id=1531225335]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.3, 0)
+
+[node name="Lower" type="MeshInstance3D" parent="Body/LegFL/KneeFL" unique_id=1646856839]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.13, 0)
+material_override = SubResource("StandardMaterial3D_0nrfn")
+mesh = SubResource("BoxMesh_7b8pt")
+
+[node name="Paw" type="MeshInstance3D" parent="Body/LegFL/KneeFL" unique_id=2129191953]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.27, 0.03)
+material_override = SubResource("StandardMaterial3D_0nrfn")
+mesh = SubResource("BoxMesh_7u7tu")
+
+[node name="LegFR" type="Node3D" parent="Body" unique_id=1806561739]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.13, -0.08, 0.32)
+
+[node name="Upper" type="MeshInstance3D" parent="Body/LegFR" unique_id=1309817576]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.14, 0)
+material_override = SubResource("StandardMaterial3D_tua20")
+mesh = SubResource("BoxMesh_08aep")
+
+[node name="KneeFR" type="Node3D" parent="Body/LegFR" unique_id=1089423688]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.3, 0)
+
+[node name="Lower" type="MeshInstance3D" parent="Body/LegFR/KneeFR" unique_id=1020339746]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.13, 0)
+material_override = SubResource("StandardMaterial3D_0nrfn")
+mesh = SubResource("BoxMesh_brpyw")
+
+[node name="Paw" type="MeshInstance3D" parent="Body/LegFR/KneeFR" unique_id=1590883595]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.27, 0.03)
+material_override = SubResource("StandardMaterial3D_0nrfn")
+mesh = SubResource("BoxMesh_j8si3")
+
+[node name="LegBL" type="Node3D" parent="Body" unique_id=194276289]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.13, -0.06, -0.34)
+
+[node name="Upper" type="MeshInstance3D" parent="Body/LegBL" unique_id=1451540411]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.14, 0)
+material_override = SubResource("StandardMaterial3D_tua20")
+mesh = SubResource("BoxMesh_u07e2")
+
+[node name="KneeBL" type="Node3D" parent="Body/LegBL" unique_id=1140018587]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.32, 0)
+
+[node name="Lower" type="MeshInstance3D" parent="Body/LegBL/KneeBL" unique_id=729921874]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.13, 0)
+material_override = SubResource("StandardMaterial3D_0nrfn")
+mesh = SubResource("BoxMesh_kd5op")
+
+[node name="Paw" type="MeshInstance3D" parent="Body/LegBL/KneeBL" unique_id=1256882151]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.25, 0.03)
+material_override = SubResource("StandardMaterial3D_0nrfn")
+mesh = SubResource("BoxMesh_l1gr4")
+
+[node name="LegBR" type="Node3D" parent="Body" unique_id=520305457]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.13, -0.06, -0.34)
+
+[node name="Upper" type="MeshInstance3D" parent="Body/LegBR" unique_id=1188874805]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.14, 0)
+material_override = SubResource("StandardMaterial3D_tua20")
+mesh = SubResource("BoxMesh_40ob7")
+
+[node name="KneeBR" type="Node3D" parent="Body/LegBR" unique_id=1119220015]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.32, 0)
+
+[node name="Lower" type="MeshInstance3D" parent="Body/LegBR/KneeBR" unique_id=2144341090]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.13, 0)
+material_override = SubResource("StandardMaterial3D_0nrfn")
+mesh = SubResource("BoxMesh_jc87r")
+
+[node name="Paw" type="MeshInstance3D" parent="Body/LegBR/KneeBR" unique_id=2062454973]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.25, 0.03)
+material_override = SubResource("StandardMaterial3D_0nrfn")
+mesh = SubResource("BoxMesh_jhnos")
+
+[node name="Tail" type="Node3D" parent="Body" unique_id=2120338330]
+transform = Transform3D(1, 0, 0, 0, 0.8525245, 0.52268726, 0, -0.52268726, 0.8525245, 0, 0.09, -0.48)
+
+[node name="TailBase" type="MeshInstance3D" parent="Body/Tail" unique_id=760221526]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.12)
+material_override = SubResource("StandardMaterial3D_tua20")
+mesh = SubResource("BoxMesh_2fngg")
+
+[node name="TailTip" type="Node3D" parent="Body/Tail" unique_id=1798553855]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.25)
+
+[node name="TailEnd" type="MeshInstance3D" parent="Body/Tail/TailTip" unique_id=2085551956]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.12)
+material_override = SubResource("StandardMaterial3D_0nrfn")
+mesh = SubResource("BoxMesh_0v5bs")
+
+[node name="EyeAnchor" type="Marker3D" parent="." unique_id=750331275]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0.62)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=257023766]
+libraries/ = SubResource("AnimationLibrary_0odrp")

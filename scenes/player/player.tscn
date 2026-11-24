@@ -1,0 +1,73 @@
+[gd_scene load_steps=19 format=3]
+
+[ext_resource type="Script" path="res://scripts/player/player.gd" id="1_player"]
+[ext_resource type="Script" path="res://scripts/player/player_visuals.gd" id="2_visuals"]
+[ext_resource type="Script" path="res://scripts/core/state_machine.gd" id="3_machine"]
+[ext_resource type="Script" path="res://scripts/player/states/ground_state.gd" id="4_ground"]
+[ext_resource type="Script" path="res://scripts/player/states/air_state.gd" id="5_air"]
+[ext_resource type="Script" path="res://scripts/player/states/mantle_state.gd" id="6_mantle"]
+[ext_resource type="Script" path="res://scripts/player/states/ledge_hang_state.gd" id="7_hang"]
+[ext_resource type="Script" path="res://scripts/player/states/ladder_state.gd" id="8_ladder"]
+[ext_resource type="Script" path="res://scripts/player/ledge_detector.gd" id="9_ledges"]
+[ext_resource type="Script" path="res://scripts/interaction/interaction_sensor.gd" id="10_sensor"]
+[ext_resource type="Resource" path="res://data/player_tuning.tres" id="11_tuning"]
+[ext_resource type="Script" path="res://scripts/player/states/attack_state.gd" id="13_attack"]
+[ext_resource type="Script" path="res://scripts/player/states/dodge_state.gd" id="14_dodge"]
+[ext_resource type="Script" path="res://scripts/player/states/block_state.gd" id="15_block"]
+[ext_resource type="Script" path="res://scripts/player/states/hurt_state.gd" id="16_hurt"]
+[ext_resource type="Script" path="res://scripts/player/states/dead_state.gd" id="17_dead"]
+[ext_resource type="Script" path="res://scripts/player/states/takedown_state.gd" id="18_takedown"]
+[ext_resource type="Resource" path="res://data/characters/kael_standin.tres" id="12_set"]
+
+[node name="Player" type="CharacterBody3D"]
+script = ExtResource("1_player")
+tuning = ExtResource("11_tuning")
+
+[node name="Collider" type="CollisionShape3D" parent="."]
+
+[node name="Visuals" type="Node3D" parent="."]
+script = ExtResource("2_visuals")
+animation_set = ExtResource("12_set")
+
+[node name="StateMachine" type="Node" parent="."]
+script = ExtResource("3_machine")
+initial_state = NodePath("Ground")
+
+[node name="Ground" type="Node" parent="StateMachine"]
+script = ExtResource("4_ground")
+
+[node name="Air" type="Node" parent="StateMachine"]
+script = ExtResource("5_air")
+
+[node name="Mantle" type="Node" parent="StateMachine"]
+script = ExtResource("6_mantle")
+
+[node name="LedgeHang" type="Node" parent="StateMachine"]
+script = ExtResource("7_hang")
+
+[node name="Ladder" type="Node" parent="StateMachine"]
+script = ExtResource("8_ladder")
+
+[node name="Attack" type="Node" parent="StateMachine"]
+script = ExtResource("13_attack")
+
+[node name="Dodge" type="Node" parent="StateMachine"]
+script = ExtResource("14_dodge")
+
+[node name="Block" type="Node" parent="StateMachine"]
+script = ExtResource("15_block")
+
+[node name="Hurt" type="Node" parent="StateMachine"]
+script = ExtResource("16_hurt")
+
+[node name="Dead" type="Node" parent="StateMachine"]
+script = ExtResource("17_dead")
+
+[node name="Takedown" type="Node" parent="StateMachine"]
+script = ExtResource("18_takedown")
+
+[node name="LedgeDetector" type="Node" parent="."]
+script = ExtResource("9_ledges")
+
+[node name="InteractionSensor" type="Area3D" parent="."]
+script = ExtResource("10_sensor")

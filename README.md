@@ -8,7 +8,7 @@
 
 `Version 1.4.1` · `Godot 4.7.2` · `macOS 11+ (Apple silicon & Intel)` · `Tested on Apple M4` · `262 automated tests` · `10 milestones`
 
-![Kael faces the Warden](kael_vs_warden.png)
+![Kael faces the Warden](docs/media/kael_vs_warden.jpg)
 
 </div>
 

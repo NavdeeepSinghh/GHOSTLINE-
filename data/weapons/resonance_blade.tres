@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="WeaponData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/combat/weapon_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "resonance_blade"
+display_name = "Resonance Blade"
+look = "blade"
+light_damage = 12.0
+light_stamina = 7.0
+light_poise = 9.0
+light_windup = 0.09
+light_active = 0.1
+light_recovery = 0.09
+heavy_damage = 30.0
+heavy_stamina = 20.0
+heavy_windup = 0.65
+heavy_recovery = 0.35
+reach = 1.3
+echo_multiplier = 1.6

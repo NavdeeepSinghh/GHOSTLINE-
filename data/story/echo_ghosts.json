@@ -1,0 +1,20 @@
+{
+	"_comment": "Echo ghosts: people caught in their last ordinary moment. 'at' is the floor point under them, 'face' a point they look toward (or 'yaw' in degrees), 'clip' a looping pose from the Kael stand-in model. Facility ghosts stand at desks chosen by the dressing pass; only their poses and lines are listed.",
+	"dead_city": [
+		{"at": [49.2, 0.28, 26.0], "face": [51.0, 26.0], "clip": "Sit_Chair_Idle", "line": "Coffee's gone cold again, Lou."},
+		{"at": [46.4, 0.05, 20.75], "face": [46.4, 23.0], "clip": "Sit_Chair_Idle", "line": "Did you hear it too? Like singing..."},
+		{"at": [16.6, 0.02, -55.1], "face": [16.6, -48.0], "clip": "Sit_Chair_Idle", "line": "Miss, the speakers are humming."},
+		{"at": [16.0, 0.02, -49.4], "face": [16.0, -60.0], "clip": "Idle", "line": "Eyes front, everyone. Eyes front."},
+		{"at": [6.0, 0.02, -72.0], "face": [0.0, -92.0], "clip": "Idle", "line": "It's beautiful. Can't you hear it?"},
+		{"at": [9.5, 0.02, -74.5], "face": [0.0, -92.0], "clip": "Idle", "line": ""},
+		{"at": [3.5, 0.02, -76.0], "face": [0.0, -92.0], "clip": "Unarmed_Idle", "line": ""}
+	],
+	"forest": [
+		{"at": [-59.0, 0.0, 44.6], "face": [-60.5, 44.8], "clip": "Sit_Chair_Idle", "line": "The birds stopped first. Then the wind."}
+	],
+	"facility": [
+		{"clip": "Interact", "line": "Coherence at ninety-eight. Keep it climbing."},
+		{"clip": "Idle", "line": "It's listening back. Oren, it's listening back."},
+		{"clip": "Interact", "line": ""}
+	]
+}

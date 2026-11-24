@@ -1,0 +1,7 @@
+{
+	"_comment": "New Game+: unlocked by finishing the game. Kael keeps his weapons, their upgrades and his salvage; everything else starts fresh. Each cycle makes enemies tougher, up to max_cycles.",
+	"enemy_health_per_cycle": 0.35,
+	"enemy_damage_per_cycle": 0.25,
+	"max_cycles": 3,
+	"bonus_salvage": 10
+}

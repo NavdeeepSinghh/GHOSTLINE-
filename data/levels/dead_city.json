@@ -1,0 +1,22 @@
+{
+	"_comment": "Tuning for the Dead City. Layout lives in scripts/levels/dead_city.gd; numbers that change how it plays live here.",
+	"rain_hearing_scale": 0.7,
+	"rain_particles": {"low": 900, "medium": 1800, "high": 3000},
+	"lightning_interval": [18.0, 45.0],
+	"enemy_sleep_distance": 80.0,
+	"enemy_wake_distance": 68.0,
+	"vital_core_health_bonus": 25.0,
+	"journal_cache_salvage": 150,
+	"salvage_pickup": 25,
+	"generator_noise_radius": 40.0,
+	"junction_relays": 5,
+	"junction_scramble": [0, 2, 3],
+	"climax_wave": [
+		{"type": "hollow", "position": [-26.0, 0.05, -66.0]},
+		{"type": "hollow", "position": [27.0, 0.05, -64.0]},
+		{"type": "hollow", "position": [36.0, 0.05, -72.0]},
+		{"type": "skitter", "position": [-27.0, 0.05, -92.0]},
+		{"type": "skitter", "position": [26.0, 0.05, -94.0]},
+		{"type": "spitter", "position": [30.0, 0.05, -84.0]}
+	]
+}

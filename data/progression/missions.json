@@ -1,0 +1,25 @@
+{
+	"_comment": "Mission select (main menu > Missions). Each mission starts its area at one objective with Kael placed at that objective's checkpoint. 'stage' is the objective's index in the level's Stage enum; 'spawn' is [x, y, z, yaw]; 'flags' and 'taken' set up what earlier missions would have done; 'state' adds level-specific saved values. Loadouts come from data/progression/chapters.json unless 'weapons' is given. Mission runs never write to the player's saves.",
+	"dead_city": [
+		{"id": "dc_rooftop", "title": "The Rooftop", "note": "Get down from Kael's camp", "stage": 0, "spawn": [-10.0, 9.1, 70.0, 0.0]},
+		{"id": "dc_streets", "title": "The Streets", "note": "Sneak through South Street", "stage": 1, "spawn": [-29.0, 0.1, 55.0, 0.0]},
+		{"id": "dc_overpass", "title": "The Overpass", "note": "Find a way past the collapse", "stage": 2, "spawn": [0.0, 0.1, 2.0, 0.0]},
+		{"id": "dc_metro", "title": "Under the City", "note": "Cross the metro to the plaza", "stage": 3, "spawn": [-20.0, -4.9, -5.0, 0.0], "weapons": {"rebar_pipe": 0, "fire_axe": 0}},
+		{"id": "dc_fuses", "title": "Find the Fuses", "note": "Two fuses for the tower", "stage": 4, "spawn": [-20.0, 0.1, -72.5, 0.0], "weapons": {"rebar_pipe": 0, "fire_axe": 0}},
+		{"id": "dc_junction", "title": "The Junction", "note": "Reroute the tower's power", "stage": 5, "spawn": [0.0, 0.1, -80.0, 0.0], "taken": ["fuse_metro", "fuse_school"], "state": {"fuses": 2}, "weapons": {"rebar_pipe": 0, "fire_axe": 0}},
+		{"id": "dc_defend", "title": "Hold the Tower", "note": "Survive the wave on the plaza", "stage": 6, "spawn": [0.0, 0.1, -80.0, 0.0], "flags": ["dc_power_on"], "taken": ["fuse_metro", "fuse_school"], "state": {"fuses": 2}, "weapons": {"rebar_pipe": 0, "fire_axe": 0}},
+		{"id": "dc_signal", "title": "The Signal", "note": "Triangulate Lyra's signal", "stage": 7, "spawn": [0.0, 0.1, -80.0, 0.0], "flags": ["dc_power_on"], "taken": ["fuse_metro", "fuse_school"], "state": {"fuses": 2}, "weapons": {"rebar_pipe": 0, "fire_axe": 0}}
+	],
+	"forest": [
+		{"id": "ff_wall", "title": "The Quarantine Wall", "note": "Find a way through", "stage": 0, "spawn": [-120.0, 0.1, 2.0, -1.5708], "flags": ["act1_complete"]},
+		{"id": "ff_tower", "title": "The Radio Tower", "note": "Cross the river to the mast", "stage": 1, "spawn": [-84.0, 0.1, -40.0, -1.5708], "flags": ["act1_complete"]},
+		{"id": "ff_tune", "title": "Carrier Wave", "note": "Tune the radio", "stage": 2, "spawn": [12.0, 0.1, 26.0, 3.14159], "flags": ["act1_complete"]},
+		{"id": "ff_warden", "title": "The Warden", "note": "Boss fight", "stage": 4, "spawn": [63.0, 0.1, 0.0, -1.5708], "flags": ["act1_complete", "ff_gate_open"]}
+	],
+	"facility": [
+		{"id": "uf_power", "title": "Lights Out", "note": "Balance the generators", "stage": 0, "spawn": [3.0, 0.1, 0.0, -1.5708], "flags": ["act1_complete", "ff_warden_dead"]},
+		{"id": "uf_quarters", "title": "The Quarters", "note": "Find the research keycard", "stage": 2, "spawn": [55.0, -5.9, 0.0, -1.5708], "flags": ["act1_complete", "ff_warden_dead", "uf_power"]},
+		{"id": "uf_labs", "title": "Resonance", "note": "Lasers, cameras and the tone lock", "stage": 4, "spawn": [107.0, -11.9, 0.0, -1.5708], "flags": ["act1_complete", "ff_warden_dead", "uf_power", "uf_keycard", "uf_open_stair_2"], "taken": ["keycard"]},
+		{"id": "uf_choir", "title": "The Choir", "note": "Final boss and the ending", "stage": 5, "spawn": [159.0, -17.9, 0.0, -1.5708], "flags": ["act1_complete", "ff_warden_dead", "uf_power", "uf_keycard", "uf_open_stair_2", "uf_lock_open"], "taken": ["keycard"]}
+	]
+}

@@ -1,0 +1,54 @@
+{
+	"area": "forest",
+	"area_title": "The Forgotten Forest",
+	"documents": [
+		{
+			"id": "ff_quarantine_order",
+			"title": "Perimeter Order 3",
+			"kind": "Military order",
+			"body": "TO: all units, Meridian cordon\nFROM: Col. Reyes\n\nThe perimeter is to be completed by 0600. Wire, wall and firing positions will face INWARD. I repeat for the engineers who queried it: inward.\n\nNothing leaves the Institute grounds. Not staff, not families, not vehicles. Persons approaching the wall from the inside are to be warned once.\n\nYou will hear things from the tree line after dark. Voices you know. Your mother, your sergeant, yourself. You will not answer and you will not leave your post to look.\n\nRadios stay off except the tower set, which stays on one frequency and is never retuned."
+		},
+		{
+			"id": "ff_soldier_letter",
+			"title": "Letter, never posted",
+			"kind": "Soldier's letter",
+			"body": "Dani,\n\nThey have us guarding a forest. Guarding it from the people inside it, which nobody will explain.\n\nLast night a woman came to the wire in a lab coat with a little girl asleep on her shoulder. She was not shouting. She asked very politely if the child could go through, just the child. Corporal Hale was on the gate. He looked at the lieutenant and the lieutenant looked at the ground.\n\nHale closed it. I watched him do it. He stood there a long time after with his hand still on the bar.\n\nI do not think I am a good man any more. Kiss the boys.\n\nT."
+		},
+		{
+			"id": "ff_radio_log",
+			"title": "Tower operator's log",
+			"kind": "Radio log",
+			"body": "0210. Carrier steady. For whoever relieves me, because the dials drift when it rains: the carrier sits at FOUR on the frequency dial and TWO on strength. Not five. Not three. Four and two. If the two lines on the scope are not one line, you are listening to the wrong thing.\n\n0340. Something is riding our carrier. A child counting. I checked the feed twice.\n\n0355. It knows my name. I have not said my name on air tonight.\n\n0400. Leaving the set on. Leaving the hut. If you are reading this, tune it back and do not listen longer than you need to."
+		},
+		{
+			"id": "ff_hunter_note",
+			"title": "Note nailed inside a hide",
+			"kind": "Hunter's note",
+			"body": "Whoever you are, you made it past the soldiers' wall, so you are either clever or lucky and I have time for both.\n\nThe wolves here are wrong. They do not hunt to eat. They hunt toward sound, same as the quiet people, and their eyes have that blue in them. Do not run. Running is a noise.\n\nI have left what I cannot carry in the cave past the ford, the one the blue moss grows out of. Whetstone, wire, a good hone. Take it and put an edge on whatever you are holding.\n\nThe deer left in spring. I should have gone with the deer."
+		},
+		{
+			"id": "ff_patrol_log",
+			"title": "Patrol Kestrel, day log",
+			"kind": "Patrol log",
+			"body": "Day 1. Six of us on the north loop, watchtower to river and back. Quiet.\n\nDay 3. Private Osei keeps stopping to listen. Says the birds go silent in a ring around the caves, like someone drew a circle. He is right. I walked the edge of it. One step you have birdsong, next step nothing.\n\nDay 4. Osei gone from his bedroll. Boots still there.\n\nDay 5. We can hear Osei. He is calling from the lower cave, cheerful, telling us to come and see. Sergeant Ito says nobody goes. Sergeant Ito is crying while she says it.\n\nOrders are in the sergeant's map case if we do not come back."
+		},
+		{
+			"id": "ff_patrol_final",
+			"title": "Patrol Kestrel, final orders",
+			"kind": "Military order",
+			"body": "Sgt. M. Ito, Patrol Kestrel. For the record, since nobody will collect it.\n\nMy orders were to hold the north loop and shoot anything that came out of the Institute. I am amending them.\n\n1. The patrol is dissolved. Anyone still themselves is to walk south and not stop.\n2. The people behind that wall are not the enemy. I do not know what the enemy is. It is not a scientist with a child on her shoulder.\n3. If you find the gate corporal, Hale, tell him I saw. Tell him I would have closed it too, and that this is not forgiveness.\n\nOsei is still calling. I am going to go and sit with him."
+		},
+		{
+			"id": "ff_child_drawing",
+			"title": "Drawing left at the aid post",
+			"kind": "Child's drawing",
+			"body": "(Pencil on the back of a ration form. Rows of trees, each with a small open mouth drawn on its trunk. Above them, wavy lines like a music stave with no notes on it.)\n\nIn a child's capitals:\n\nTHE WOODS ARE HUMMING THE SAME SONG AS THE TOWER AT HOME. I ASKED THE SOLDIER IF HE CAN HEAR IT AND HE SAID NO BUT HE WAS TAPPING HIS FOOT TO IT.\n\nI DONT LIKE HOW IT NEVER GETS TO THE END.\n\n(Smaller, at the bottom:) mum says we are going on a bus. the bus is late."
+		},
+		{
+			"id": "ff_guard_report",
+			"title": "Incident report, service tunnel gate",
+			"kind": "Security report",
+			"body": "MERIDIAN RESONANCE INSTITUTE, SITE SECURITY\nIncident 77-0412. Reporting officer: O. Hale.\n\nAt 0131 I received the order to seal the service tunnel from the surface side. At 0133 Dr. I. Vance and a minor (L. Vance, 12) reached the inner door and requested egress. Dr. Vance stated the child required a hospital.\n\nI confirmed the order by radio. The order was confirmed.\n\nI sealed the door at 0136.\n\nI am filing this because someone should know that she did not bang on it. She put her hand flat on the glass and said, \"It's all right, Oren. I know.\"\n\nI have requested transfer to the perimeter."
+		}
+	]
+}

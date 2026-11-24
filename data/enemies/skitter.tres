@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="EnemyData" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/ai/enemy_data.gd" id="1"]
+[ext_resource type="PackedScene" path="res://assets/models/characters/enemies/Skeleton_Rogue.glb" id="2"]
+
+[resource]
+script = ExtResource("1")
+model = ExtResource("2")
+id = "skitter"
+display_name = "Skitter"
+model_scale = 0.66
+body_radius = 0.3
+body_height = 1.4
+eye_height = 1.15
+max_health = 26.0
+stagger_threshold = 14.0
+walk_speed = 1.8
+chase_speed = 6.2
+turn_speed = 10.0
+detect_time = 0.8
+attack_kind = 1
+attack_damage = 11.0
+attack_poise = 12.0
+attack_range = 4.6
+attack_windup = 0.34
+attack_active = 0.3
+attack_recovery = 0.6
+attack_cooldown = 1.9
+attack_lunge_speed = 12.0
+attack_reach = 0.9
+attack_radius = 0.8
+walk_clip = &"Walking_A"
+run_clip = &"Running_C"
+attack_clip = &"1H_Melee_Attack_Jump_Chop"
+attack_impact_fraction = 0.45
+walk_clip_speed = 1.6
+run_clip_speed = 5.0
+perch_notice_range = 11.0
+perch_drop_seconds = 0.55

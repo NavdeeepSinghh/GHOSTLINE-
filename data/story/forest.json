@@ -1,0 +1,173 @@
+{
+	"_comment": "Act 2 script for the Forgotten Forest.",
+	"objectives": {
+		"wall": "Find a way through the quarantine wall",
+		"tower": "Reach the military radio tower",
+		"tune": "Tune the radio tower to the carrier wave",
+		"tunnel": "Follow the opened road to the service tunnel",
+		"warden": "Something guards the tunnel. Put it down.",
+		"enter": "Enter the service tunnel",
+		"done": ""
+	},
+	"side_objectives": {
+		"cache": "Optional: find the hunter's cache past the ford",
+		"patrol": "Optional: learn what happened to Patrol Kestrel (%d / 2)"
+	},
+	"hints": {
+		"wolves": "Corrupted wolves hunt in packs and hear further than Hollows. Stay low or fight with your back to a tree",
+		"ford": "The ford is shallow. Water is loud: cross slowly",
+		"warden": "The Warden's swing can be parried. Its charge cannot: dodge sideways",
+		"warden_2": "Its armour is gone. When it roars and plants its feet, get behind a pillar",
+		"warden_3": "The suit is failing. After each lunge it is wide open"
+	},
+	"radio": {
+		"arrive": [
+			{
+				"speaker": "Oren",
+				"text": "That's the old cordon ahead. Army put it up in a night. Have a look which way the guns point, son.",
+				"seconds": 6.0
+			},
+			{
+				"speaker": "Kael",
+				"text": "...Inward.",
+				"seconds": 2.0
+			},
+			{
+				"speaker": "Oren",
+				"text": "Inward.",
+				"seconds": 2.0
+			}
+		],
+		"tower": [
+			{
+				"speaker": "Oren",
+				"text": "That mast controls the cordon gates. It listens for one carrier and nothing else. Get it tuned and the service road opens.",
+				"seconds": 7.0
+			}
+		],
+		"tuned": [
+			{
+				"speaker": "Oren",
+				"text": "That's her. Gate's cycling. Service tunnel's east of you, past the checkpoint.",
+				"seconds": 5.0
+			},
+			{
+				"speaker": "Kael",
+				"text": "You know this place well for a man with old maps.",
+				"seconds": 4.0
+			},
+			{
+				"speaker": "Oren",
+				"text": "...Mind the checkpoint.",
+				"seconds": 2.5
+			}
+		],
+		"arena": [
+			{
+				"speaker": "Oren",
+				"text": "Kael. Stop. There's a suit at that gate. Army exo-frame. There was a man in it once.",
+				"seconds": 6.5
+			}
+		],
+		"cache": [
+			{
+				"speaker": "Kael",
+				"text": "A whetstone and a note. Somebody decent lived out here.",
+				"seconds": 4.0
+			}
+		],
+		"patrol": [
+			{
+				"speaker": "Kael",
+				"text": "\"Tell him I saw.\" ...Hale. That name was on the report.",
+				"seconds": 4.5
+			}
+		]
+	},
+	"intro": [
+		{
+			"at": 1.0,
+			"speaker": "",
+			"text": "Act 2: The Forgotten Forest",
+			"seconds": 4.0
+		},
+		{
+			"at": 6.0,
+			"speaker": "Kael",
+			"text": "Birds. I'd forgotten there were birds.",
+			"seconds": 4.0
+		},
+		{
+			"at": 11.0,
+			"speaker": "Oren",
+			"text": "Enjoy them while they last. They stop singing near Meridian. You'll hear where.",
+			"seconds": 6.0,
+			"sound": "radio_in"
+		}
+	],
+	"confession": [
+		{
+			"at": 1.0,
+			"speaker": "Kael",
+			"text": "It's done. The gate's clear.",
+			"seconds": 3.5
+		},
+		{
+			"at": 5.5,
+			"speaker": "Oren",
+			"text": "I know that gate. I know the weight of the bar. Twenty years and my hand still closes on it in my sleep.",
+			"seconds": 8.0,
+			"sound": "radio_in"
+		},
+		{
+			"at": 14.5,
+			"speaker": "Kael",
+			"text": "Hale. Corporal Oren Hale.",
+			"seconds": 3.5
+		},
+		{
+			"at": 19.0,
+			"speaker": "Oren",
+			"text": "I sealed that tunnel, son. On an order. With your mother and your sister on the other side of the glass.",
+			"seconds": 8.0
+		},
+		{
+			"at": 28.0,
+			"speaker": "Oren",
+			"text": "She told me it was all right. I've been trying to find someone to tell me it wasn't.",
+			"seconds": 7.0
+		},
+		{
+			"at": 36.0,
+			"speaker": "Kael",
+			"text": "...Stay on the radio, Oren. You're going to open it with me.",
+			"seconds": 5.5
+		}
+	],
+	"stuck": {
+		"wall": [
+			"The gate is shut. Follow the wall to find another way through.",
+			"Follow the quarantine wall north from the gate to where it has fallen in, and climb through the breach."
+		],
+		"tower": [
+			"Head for the radio mast to the south-east.",
+			"Follow the trail past the outpost, over the river ford, to the radio hut under the tall mast."
+		],
+		"tune": [
+			"The radio hut has a panel and the operator's log.",
+			"Read the operator's log in the hut for the frequency and strength, then press E at the panel and match both."
+		],
+		"tunnel": [
+			"The inner gate is open.",
+			"Follow the road east through the inner gate toward the service tunnel."
+		],
+		"warden": [
+			"Hide from the flame and hit it after a charge.",
+			"Stay behind the yard's pillars when it breathes fire. After it charges and slams it has to recover: that is the moment for heavy attacks or the axe."
+		],
+		"enter": [
+			"The tunnel mouth is past the Warden's yard.",
+			"Go to the far east end of the yard and press E at the service tunnel."
+		]
+	}
+}

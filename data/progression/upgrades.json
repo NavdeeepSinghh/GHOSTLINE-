@@ -1,0 +1,28 @@
+{
+	"_comment": "Workbench upgrades. Each weapon has three tiers bought in order with salvage. 'damage' and 'stamina' multiply the weapon's base numbers at that tier (cumulative values, not per-step). 'special' is applied at tier 3: finisher_bonus adds to the combo finisher multiplier, armor_bonus adds to the armour multiplier, charge_bonus adds to charged heavy damage.",
+	"rebar_pipe": {
+		"tiers": [
+			{"cost": 60, "damage": 1.12, "stamina": 1.0, "label": "Weighted head: +12% damage"},
+			{"cost": 120, "damage": 1.12, "stamina": 0.85, "label": "Taped grip: -15% stamina cost"},
+			{"cost": 200, "damage": 1.25, "stamina": 0.85, "label": "Balanced: +25% damage, combo finisher hits harder", "special": {"finisher_bonus": 0.3}}
+		]
+	},
+	"fire_axe": {
+		"tiers": [
+			{"cost": 80, "damage": 1.12, "stamina": 1.0, "label": "Honed edge: +12% damage"},
+			{"cost": 140, "damage": 1.12, "stamina": 0.85, "label": "Shortened haft: -15% stamina cost"},
+			{"cost": 220, "damage": 1.25, "stamina": 0.85, "label": "Breaker: +25% damage, shatters armour faster", "special": {"armor_bonus": 0.75}}
+		]
+	},
+	"resonance_blade": {
+		"tiers": [
+			{"cost": 100, "damage": 1.12, "stamina": 1.0, "label": "Tuned core: +12% damage"},
+			{"cost": 160, "damage": 1.12, "stamina": 0.85, "label": "Light frame: -15% stamina cost"},
+			{"cost": 240, "damage": 1.25, "stamina": 0.85, "label": "Harmonic: +25% damage, charged strikes hit harder", "special": {"charge_bonus": 0.4}}
+		]
+	},
+	"cores": {
+		"vital_core_health_bonus": 25.0,
+		"lung_core_stamina_bonus": 20.0
+	}
+}

@@ -1,0 +1,54 @@
+{
+	"area": "dead_city",
+	"area_title": "The Dead City",
+	"documents": [
+		{
+			"id": "dc_fridge_note",
+			"title": "Note on a refrigerator",
+			"kind": "Household note",
+			"body": "Tomas,\n\nSoup is in the blue pot. Heat it slowly, do not let it catch. The girls have eaten but they will say they have not.\n\nThe radio has been doing that thing again, the humming under the news. Nadia says it sounds like a choir warming up. I told her it is only the weather. I am not sure it is only the weather.\n\nI laid the table for all four of us anyway. Come home before it gets cold. I would like one dinner this week where nobody is looking at a screen.\n\nR."
+		},
+		{
+			"id": "dc_mara_1",
+			"title": "Mara's journal, page one",
+			"kind": "Survivor's journal",
+			"body": "Day 6,212 or near enough.\n\nRule one still holds: they do not see you so much as hear you. I walked past six of them in the Kestrel Street market with my boots in my hands and my heart going like a drum, and not one turned its head. Then a can rolled off a shelf two aisles over and every one of them went for it.\n\nSo: bottles. I keep three on me now. A bottle thrown left buys you a walk to the right.\n\nRain helps too. They hear less in it. I have started to love the rain.\n\nHeading for the metro. The streets north are choked."
+		},
+		{
+			"id": "dc_evac_order",
+			"title": "Evacuation Order 14",
+			"kind": "Civil defence notice",
+			"body": "CIVIL DEFENCE DIRECTORATE, DISTRICT 9\nORDER 14, POSTED 03:40\n\nAll residents will assemble at the Halloran Street aid station for transport. Bring identification and one bag per person. Do not bring radios, telephones or any receiving device. Devices found at the checkpoint will be destroyed.\n\nDo not attempt to contact missing relatives. Do not answer if they contact you.\n\nPersons who have stopped speaking are to be reported to the nearest warden and are not to be approached, however familiar they appear.\n\nTransport departs at dawn.\n\n(Handwritten beneath, in marker:) NO TRUCKS CAME. WE WAITED TWO DAYS."
+		},
+		{
+			"id": "dc_pharmacy_log",
+			"title": "Dispensary log, final entry",
+			"kind": "Pharmacist's log",
+			"body": "Locked the dispensary shutter and put the backup generator on its own breaker. If the mains come back the shutter stays down; it only opens on generator power, so somebody has to choose to start it. The noise will carry. I am sorry about that.\n\nWhat is in there is worth the noise. Trauma kits, the good injectors, and the cardiac stimulant the hospital sent over the night it started. One dose rebuilt a man's heart rhythm in front of me.\n\nMr. Okafor from the flats came in this morning and stood at the counter for an hour without speaking. When I said his name he smiled with no mouth.\n\nI am going out the back."
+		},
+		{
+			"id": "dc_mara_2",
+			"title": "Mara's journal, page two",
+			"kind": "Survivor's journal",
+			"body": "The metro is drier than I expected and worse than I feared. The fast ones nest down here. You hear them before you see them, a clicking like a clock that cannot keep time.\n\nThere is something growing on the far wall of the concourse. Blue-green, bright as a screen, and it pulses when I breathe near it. I held my hand over it and felt my own name go through my teeth. I did not say it. It was said.\n\nI am not sleeping down here.\n\nThe Learning Centre across the plaza has a roof I can reach. From up there I can watch the old broadcast tower. If anything in this city still talks, it will talk from there."
+		},
+		{
+			"id": "dc_classroom",
+			"title": "Drawing pinned to a classroom wall",
+			"kind": "Child's drawing",
+			"body": "(Crayon on yellowed paper. A tall tower with zigzag lines coming off the top. Beneath it, a row of stick figures holding hands, all with round open mouths. One smaller figure stands apart with a line where the mouth should be.)\n\nWritten along the bottom in careful block letters:\n\nMY TOWN IS SINGING. MISS ADEYEMI SAYS USE INSIDE VOICES BUT IT IS NOT US. IT IS THE TOWER.\n\nI AM THE ONE WHO IS NOT SINGING. I AM LISTENING.\n\nby Pell, age 7\n\n(In red pen, a teacher's hand:) Lovely colours, Pell! Please see me after class.\n\n(Every chair in the room has been pushed back from its desk, all at the same angle.)"
+		},
+		{
+			"id": "dc_mara_3",
+			"title": "Mara's journal, last page",
+			"kind": "Survivor's journal",
+			"body": "Three nights on this roof. The tower is dead, but twice now, just before dawn, the mast has hummed, and every one of them in the plaza has turned to face it like flowers.\n\nThere is a voice in the hum. A girl, or a woman who was a girl. She is not calling me. She keeps saying one name, over and over, like someone knocking.\n\nI cannot fix the tower. The junction box wants two fuses and a steadier hand than mine. But somebody will come who can.\n\nI have left what I could not carry in the locker by my bedroll. Kick the ladder down when you go. Make the way easier for the next one.\n\nIf you are Kael: she is still knocking."
+		},
+		{
+			"id": "dc_engineer_voicemail",
+			"title": "Voicemail, transcribed from a dead phone",
+			"kind": "Voicemail transcript",
+			"body": "Dee, it's Arlo, pick up. Okay. Listen.\n\nThe mast is carrying something that isn't ours. I pulled our feed completely and the needle didn't drop. It's coming in from the north-east, out past the reservoir, and it's using our tower like a tuning fork.\n\nI'm killing the junction. If anyone needs it back: relays one, three and four, any order. I wrote it on the inside of the panel door as well because I know nobody reads my emails.\n\nDee, there are people standing in the plaza. Just standing. They're all looking up at me.\n\nI don't think I should have turned on the lights."
+		}
+	]
+}

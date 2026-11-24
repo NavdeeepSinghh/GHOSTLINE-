@@ -1,0 +1,270 @@
+{
+	"_comment": "Act 1 script: objectives, radio lines, tutorial hints and cinematic subtitles for the Dead City. Speakers: Kael, Oren (radio), Lyra (transmission). 'at' is seconds from the start of a cinematic; 'seconds' is how long a line stays up.",
+	"objectives": {
+		"prologue": "Get down from the rooftop",
+		"reach_main": "Cross the district toward the broadcast tower",
+		"find_way": "Find a way past the collapsed overpass",
+		"reach_tower": "Reach the broadcast tower",
+		"restore_power": "Restore power to the tower: find fuses (%d / 2)",
+		"junction": "Reroute the junction panel in the tower",
+		"defend": "The tower is live. Survive.",
+		"transmit": "Triangulate the signal at the transmitter console",
+		"done": "Leave the city by East Avenue when you are ready (south end)"
+	},
+	"side_objectives": {
+		"pharmacy": "Optional: start the pharmacy's backup generator",
+		"journal": "Optional: follow Mara's journal (%d / 3)"
+	},
+	"hints": {
+		"move": "WASD to move  ·  Mouse to look  ·  Shift to sprint",
+		"jump": "Space to jump the gap",
+		"mantle": "Yellow edges can be climbed: face one and press Space",
+		"ladder": "E to climb down the ladder",
+		"crouch": "C to crouch. Crouched, Kael is quiet and harder to see",
+		"takedown": "Approach from behind while unseen and press E for a silent takedown",
+		"bottle": "G throws a bottle. The Hollows go to the noise",
+		"combat": "LMB light attack  ·  RMB heavy  ·  Q block, tap just before a hit to parry  ·  F dodge",
+		"rain": "Rain covers your footsteps. The Hollows hear less in it",
+		"axe": "The Fire Axe breaks armour. Press 2 to equip it",
+		"bulwark": "Armoured. Light blows glance off: use heavy attacks or the axe"
+	},
+	"radio": {
+		"street": [
+			{
+				"speaker": "Oren",
+				"text": "Street level. Keep low, son. The quiet ones in the road are Hollows. They'll go to a sound before they go to a shape.",
+				"seconds": 6.5
+			},
+			{
+				"speaker": "Kael",
+				"text": "I know what they are.",
+				"seconds": 2.5
+			},
+			{
+				"speaker": "Oren",
+				"text": "'Course you do. Humour an old man. Tower's north. Tall thing, can't miss it.",
+				"seconds": 5.0
+			}
+		],
+		"main_street": [
+			{
+				"speaker": "Oren",
+				"text": "That's the old overpass come down across Central. You won't climb that.",
+				"seconds": 4.5
+			},
+			{
+				"speaker": "Oren",
+				"text": "There's a metro station on your side of the street. Line runs straight under the block. Wouldn't call it safe. Would call it a way through.",
+				"seconds": 7.0
+			}
+		],
+		"metro": [
+			{
+				"speaker": "Oren",
+				"text": "You're breaking up. Lot of concrete over your head. If you hear clicking, that's not the pipes.",
+				"seconds": 5.5
+			}
+		],
+		"plaza": [
+			{
+				"speaker": "Oren",
+				"text": "There she is. Forty years of the nine o'clock news came off that mast.",
+				"seconds": 4.5
+			},
+			{
+				"speaker": "Oren",
+				"text": "Junction panel's in the base. It'll want two fuses. One's in the metro hall you just came through, east wall under the red lamp. Other's in the Learning Centre, across the plaza.",
+				"seconds": 7.5
+			}
+		],
+		"first_fuse": [
+			{
+				"speaker": "Oren",
+				"text": "That's one. Panel takes two. Look for the orange glow.",
+				"seconds": 3.0
+			}
+		],
+		"fuses_done": [
+			{
+				"speaker": "Oren",
+				"text": "That's both. Seat them in the panel and wake her up.",
+				"seconds": 4.0
+			}
+		],
+		"power_on": [
+			{
+				"speaker": "Oren",
+				"text": "She's humming! Kael, that mast is the loudest thing in the city right now. Everything that can hear is coming.",
+				"seconds": 6.5
+			},
+			{
+				"speaker": "Kael",
+				"text": "Let them come.",
+				"seconds": 2.0
+			}
+		],
+		"wave_clear": [
+			{
+				"speaker": "Oren",
+				"text": "It's gone quiet. Get to the console before it stops being quiet.",
+				"seconds": 4.5
+			}
+		],
+		"pharmacy_power": [
+			{
+				"speaker": "Oren",
+				"text": "Was that a generator? Whatever's behind that shutter, I hope it's worth the company.",
+				"seconds": 5.0
+			}
+		],
+		"journal_done": [
+			{
+				"speaker": "Kael",
+				"text": "\"She is still knocking.\" ...Thank you, Mara. Wherever you got to.",
+				"seconds": 5.0
+			}
+		]
+	},
+	"prologue": [
+		{
+			"at": 1.5,
+			"speaker": "",
+			"text": "2097. Twenty years after the Silence.",
+			"seconds": 4.0
+		},
+		{
+			"at": 7.0,
+			"speaker": "Kael",
+			"text": "Same dead channels. Same static.",
+			"seconds": 3.5
+		},
+		{
+			"at": 12.0,
+			"speaker": "Lyra",
+			"text": "Kael... if you can hear this, I'm still here.",
+			"seconds": 5.0,
+			"sound": "echo_motif"
+		},
+		{
+			"at": 17.5,
+			"speaker": "Lyra",
+			"text": "Come to Meridian. Don't let it finish the song.",
+			"seconds": 5.0
+		},
+		{
+			"at": 23.5,
+			"speaker": "Kael",
+			"text": "...Lyra?",
+			"seconds": 2.5
+		},
+		{
+			"at": 27.0,
+			"speaker": "Oren",
+			"text": "Whoever's on this frequency, you heard that too. Tell me you heard that.",
+			"seconds": 5.0,
+			"sound": "radio_in"
+		},
+		{
+			"at": 32.5,
+			"speaker": "Kael",
+			"text": "Who is this?",
+			"seconds": 2.0
+		},
+		{
+			"at": 35.0,
+			"speaker": "Oren",
+			"text": "Name's Oren. I've been listening to nothing for twenty years, and tonight nothing said a name. The old broadcast tower could pin where it's coming from.",
+			"seconds": 8.5
+		},
+		{
+			"at": 44.0,
+			"speaker": "Kael",
+			"text": "Then that's where I'm going.",
+			"seconds": 3.0
+		}
+	],
+	"ending": [
+		{
+			"at": 1.0,
+			"speaker": "Kael",
+			"text": "Console's alive. Bearing... north-east. Forty kilometres.",
+			"seconds": 5.0
+		},
+		{
+			"at": 6.5,
+			"speaker": "Lyra",
+			"text": "...still here. Come to Meridian...",
+			"seconds": 4.5,
+			"sound": "echo_motif"
+		},
+		{
+			"at": 11.5,
+			"speaker": "Oren",
+			"text": "Meridian. That's the Resonance Institute, out under the forest. They sealed that place from the outside, Kael.",
+			"seconds": 7.0,
+			"sound": "radio_in"
+		},
+		{
+			"at": 19.0,
+			"speaker": "Oren",
+			"text": "You'll want the service tunnel on the east side. Main doors won't have opened since the night it happened.",
+			"seconds": 6.5
+		},
+		{
+			"at": 26.0,
+			"speaker": "Kael",
+			"text": "...How do you know which doors opened?",
+			"seconds": 4.0
+		},
+		{
+			"at": 30.5,
+			"speaker": "Oren",
+			"text": "Old maps. I've had a long time to read. Get moving, son. Dawn's coming.",
+			"seconds": 6.0
+		},
+		{
+			"at": 37.5,
+			"speaker": "",
+			"text": "End of Act 1",
+			"seconds": 4.0
+		}
+	],
+	"stuck": {
+		"prologue": [
+			"Follow the marker across the rooftops.",
+			"Run and press Space to jump the gap to the next roof, climb onto the yellow edge with Space, then go to the ladder at the roof's south edge and press E to climb down."
+		],
+		"reach_main": [
+			"Head north toward the broadcast tower: the tall mast you can see over the rooftops.",
+			"Follow the marker north to Main Street. Crouch (C) past the Hollows, or throw a bottle (G) to pull them away from your path."
+		],
+		"find_way": [
+			"The overpass blocks the avenue. Look for another way under it.",
+			"Use the metro: the stairs going down into the station are on Main Street, near the marker. The tunnel takes you north under the block."
+		],
+		"reach_tower": [
+			"Keep going north through the metro.",
+			"Follow the metro tunnel north to the far stairs and climb up into Tower Plaza. The tower is the tall mast in the middle."
+		],
+		"restore_power": [
+			"Fuses glow orange, with a column of light above them. The marker points to the nearest one you haven't taken.",
+			"One fuse is in the metro hall, on the east side under a dim red lamp. The other is in the Learning Centre on the plaza, on a crate in the back-right corner as you come in (the west end). Then take both to the junction panel in the base of the tower."
+		],
+		"junction": [
+			"The junction panel is inside the base of the tower.",
+			"Press E at the panel. Each breaker flips its own relay and its neighbours. Close every relay: try the breakers one at a time and watch which lights change."
+		],
+		"defend": [
+			"Kill everything that came onto the plaza.",
+			"Six enemies: kill the Spitter first, keep a wall behind you, dodge (F) the Skitters' dash, and use an injector (H) when there's a gap."
+		],
+		"transmit": [
+			"The transmitter console is in the base of the tower.",
+			"Go back into the base of the tower and press E at the transmitter console."
+		],
+		"done": [
+			"The road out of the city is at the south end of East Avenue.",
+			"Follow the marker to the south end of East Avenue and press E to leave for Meridian."
+		]
+	}
+}

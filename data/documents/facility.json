@@ -1,0 +1,54 @@
+{
+	"area": "facility",
+	"area_title": "The Underground Facility",
+	"documents": [
+		{
+			"id": "uf_reception_memo",
+			"title": "Welcome to Meridian",
+			"kind": "Visitor leaflet",
+			"body": "Welcome to the Meridian Resonance Institute!\n\nProject CHORUS is building the first network that carries thought itself: no wires, no screens, only resonance. Imagine a surgeon in one city guiding hands in another. Imagine never being misunderstood again.\n\nA few house rules:\n\n• Badges visible at all times.\n• Personal radios and phones are surrendered at Security. This is for calibration reasons, not secrecy.\n• If you hear humming in the lower levels, that is normal. If the humming seems to be FOR you, please tell a member of staff.\n\nFamilies of resident staff: the school room is on Level 2. Children love it here!"
+		},
+		{
+			"id": "uf_technician_voicemail",
+			"title": "Voicemail, staff quarters",
+			"kind": "Voicemail transcript",
+			"body": "Mum, it's Bea. I can't talk long, they've taken the phones but the wall set in the common room still dials out.\n\nSomething answered. That's the only way I can say it. We sent the first full signal down the array and something that was already there answered, like when you shout in a cave and the echo comes back in a different voice.\n\nDr. Vance wants it shut down. The directors want to know what it knows.\n\nIf the radio at home starts humming, turn it off. Take the batteries out. Don't sing along, Mum, I mean it, you always sing along."
+		},
+		{
+			"id": "uf_ilse_notes",
+			"title": "Lab notebook, I. Vance",
+			"kind": "Lab notes",
+			"body": "CHORUS, run 61.\n\nIt is not a network. I keep writing that word because the grant says it. It is a door, and the thing on the other side has been listening at keyholes like ours for longer than we have had language.\n\nIt does not hate us. I want that recorded. It collects. A mind that touches it is not destroyed; it is added, the way a voice is added to a choir. From inside, I suspect, it feels like finally being heard.\n\nThat is what makes it lethal. Nobody will fight being heard.\n\nI am recommending we destroy the array. I do not expect to be listened to, which is almost funny."
+		},
+		{
+			"id": "uf_medical_chart",
+			"title": "Patient chart: L. Vance",
+			"kind": "Medical chart",
+			"body": "PATIENT: Lyra Vance, 12. Dependent of Dr. I. Vance.\n\nPresenting: progressive cardiac failure, congenital. Third admission this year.\n\nPrognosis: weeks. The surface hospital can offer comfort only. Dr. Vance has been informed. Dr. Vance did not sit down when she was informed.\n\nNote (nursing): patient is cheerful, asks many questions about the array, and has been found twice at the observation window after lights-out, humming. She says it is \"the tune it's stuck on.\"\n\nNote (Dr. Vance, handwritten, not in the system): There is one place a failing body does not matter. God forgive me, I have the keys to it."
+		},
+		{
+			"id": "uf_lyra_wall",
+			"title": "Writing on the school room wall",
+			"kind": "Child's handwriting",
+			"body": "(A whole wall, floor to as high as a twelve-year-old can reach standing on a chair, covered in one child's handwriting. Most of it is the same four shapes, over and over, in rows:)\n\n●  ▲  ◆  ■\n●  ▲  ◆  ■\n●  ▲  ◆  ■\n\n(Between the rows, smaller:)\n\nthis is the bit it cant do. it sings everything else but it always stops before this bit. so i practise it so i dont forget and it doesnt get it.\n\ncircle triangle diamond square. circle triangle diamond square.\n\nmum says it opens the big door. i say it CLOSES it.\n\nKAEL IF YOU EVER COME HERE THIS IS THE END OF THE SONG. DONT LET IT HAVE IT."
+		},
+		{
+			"id": "uf_security_archive",
+			"title": "Security archive: personnel",
+			"kind": "Personnel file",
+			"body": "HALE, OREN. Site Security, grade 2. Age 31.\n\nAssigned: service tunnel gate, night rotation.\n\n77-0412: Sealed the service tunnel on order during the containment event. Two persons confirmed inside the seal at time of closure (Vance, I.; Vance, L.).\n\nPost-event: transferred to perimeter at own request. Absent from muster after day 9. Listed as deserted.\n\nAddendum, undated, typed on a different machine: Subject has been heard on amateur bands for some years, relaying weather and talking to nobody. He ends every transmission the same way: \"Still listening.\"\n\nIt is assessed that he is waiting for someone to answer."
+		},
+		{
+			"id": "uf_ilse_office",
+			"title": "Letter in a locked drawer",
+			"kind": "Private letter",
+			"body": "Kael,\n\nYou were seven and asleep at your grandmother's, and that is the only thing I did right.\n\nLyra was dying. I opened the door and carried her through it, because in there a failing heart is only a detail. I thought I was choosing one child.\n\nIt came through the other way. All of it, all at once. The night the world went quiet, that was me.\n\nBut it stopped, Kael. It took the cities and then it stopped, because your sister would not finish the tune. She has been holding one note shut against it for longer than you have been alive.\n\nShe is so tired. Help her put it down.\n\nI am sorry. I am so sorry.\n\nMum"
+		},
+		{
+			"id": "uf_anchor_log",
+			"title": "Resonance Chamber monitor",
+			"kind": "System log",
+			"body": "ANCHOR INTEGRITY (automated, uninterrupted power 7,300 days)\n\nYear 1: 100%. External spread: halted.\nYear 5: 98%.\nYear 12: 91%. Subject pattern shows fatigue. Subject pattern is still, recognisably, humming.\nYear 19: 64%.\nThis year: 31% and falling.\n\nPROJECTION: at anchor failure the sequence completes. Remaining population will be gathered within one night.\n\nOPERATOR NOTE (last human entry, year 1): She can hear us. I told her we were leaving. She said, through every speaker on the level, in a little girl's voice, \"That's okay. Somebody's coming. He's just slow.\""
+		}
+	]
+}

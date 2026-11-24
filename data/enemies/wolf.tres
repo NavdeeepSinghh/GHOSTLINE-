@@ -1,0 +1,45 @@
+[gd_resource type="Resource" script_class="EnemyData" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/ai/enemy_data.gd" id="1"]
+[ext_resource type="PackedScene" path="res://assets/models/characters/wolf/wolf.tscn" id="2"]
+
+[resource]
+script = ExtResource("1")
+model = ExtResource("2")
+id = "wolf"
+display_name = "Corrupted Wolf"
+model_scale = 1.0
+body_radius = 0.3
+body_height = 1.4
+eye_height = 1.15
+max_health = 34.0
+stagger_threshold = 14.0
+walk_speed = 1.8
+chase_speed = 7.0
+turn_speed = 10.0
+detect_time = 0.6
+hearing = 1.4
+alert_radius = 16.0
+is_echo_infused = true
+attack_kind = 1
+attack_damage = 13.0
+attack_poise = 12.0
+attack_range = 4.6
+attack_windup = 0.34
+attack_active = 0.3
+attack_recovery = 0.6
+attack_cooldown = 1.9
+attack_lunge_speed = 12.0
+attack_reach = 0.9
+attack_radius = 0.8
+idle_clip = &"Idle"
+walk_clip = &"Walk"
+run_clip = &"Run"
+attack_clip = &"Attack"
+hit_clip = &"Hit"
+stagger_clip = &"Stagger"
+death_clip = &"Death"
+alert_clip = &"Howl"
+attack_impact_fraction = 0.45
+walk_clip_speed = 1.1
+run_clip_speed = 4.5
